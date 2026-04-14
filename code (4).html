@@ -1,0 +1,136 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Base gradient -->
+    <linearGradient id="skyGradient" x1="0" y1="0" x2="0" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FEF7F0"/>
+      <stop offset="40%" stop-color="#FDF8F3"/>
+      <stop offset="100%" stop-color="#F9F9F9"/>
+    </linearGradient>
+    
+    <!-- Sun glow -->
+    <radialGradient id="sunGlow" cx="0.5" cy="0.3" r="0.6">
+      <stop offset="0%" stop-color="#FFECD2" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#FCB69F" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FCB69F" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Village silhouette -->
+    <linearGradient id="villageGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8DDD4" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#E8DDD4" stop-opacity="0.08"/>
+    </linearGradient>
+    
+    <!-- Field gradient -->
+    <linearGradient id="fieldGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8B86D" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#C4A574" stop-opacity="0.05"/>
+    </linearGradient>
+    
+    <!-- Wheat pattern -->
+    <pattern id="wheatPattern" x="0" y="0" width="120" height="60" patternUnits="userSpaceOnUse">
+      <g opacity="0.15" fill="#A03B00">
+        <path d="M10 60 Q12 45 15 30 Q18 45 20 60" stroke="#A03B00" stroke-width="0.8" fill="none"/>
+        <circle cx="15" cy="28" r="2"/>
+        <path d="M30 60 Q32 48 34 35 Q36 48 38 60" stroke="#A03B00" stroke-width="0.8" fill="none"/>
+        <circle cx="34" cy="33" r="2"/>
+        <path d="M50 60 Q52 42 55 28 Q58 42 60 60" stroke="#A03B00" stroke-width="0.8" fill="none"/>
+        <circle cx="55" cy="26" r="2.5"/>
+        <path d="M70 60 Q72 46 74 32 Q76 46 78 60" stroke="#A03B00" stroke-width="0.8" fill="none"/>
+        <circle cx="74" cy="30" r="2"/>
+        <path d="M90 60 Q92 44 95 30 Q98 44 100 60" stroke="#A03B00" stroke-width="0.8" fill="none"/>
+        <circle cx="95" cy="28" r="2"/>
+        <path d="M110 60 Q112 47 114 34 Q116 47 118 60" stroke="#A03B00" stroke-width="0.8" fill="none"/>
+        <circle cx="114" cy="32" r="2"/>
+      </g>
+    </pattern>
+    
+    <!-- Dots pattern -->
+    <pattern id="dotsPattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1.5" fill="#A03B00" opacity="0.06"/>
+      <circle cx="60" cy="20" r="1" fill="#A03B00" opacity="0.04"/>
+      <circle cx="40" cy="50" r="1.5" fill="#A03B00" opacity="0.05"/>
+      <circle cx="80" cy="50" r="1" fill="#A03B00" opacity="0.03"/>
+      <circle cx="10" cy="80" r="1" fill="#A03B00" opacity="0.04"/>
+      <circle cx="50" cy="80" r="1.5" fill="#A03B00" opacity="0.06"/>
+      <circle cx="90" cy="80" r="1" fill="#A03B00" opacity="0.04"/>
+    </pattern>
+    
+    <!-- Blur for soft elements -->
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="1920" height="1080" fill="url(#skyGradient)"/>
+  
+  <!-- Sun glow -->
+  <ellipse cx="960" cy="200" rx="600" ry="400" fill="url(#sunGlow)"/>
+  
+  <!-- Fields in background -->
+  <rect x="0" y="600" width="1920" height="480" fill="url(#fieldGradient)"/>
+  <rect x="0" y="600" width="1920" height="480" fill="url(#wheatPattern)"/>
+  
+  <!-- Dots overlay -->
+  <rect width="1920" height="1080" fill="url(#dotsPattern)"/>
+  
+  <!-- Village silhouettes - distant -->
+  <g opacity="0.12" fill="url(#villageGradient)">
+    <!-- Left village cluster -->
+    <path d="M100 750 L100 680 L120 680 L120 650 L130 650 L130 620 L140 620 L140 680 L160 680 L160 720 L180 720 L180 680 L200 680 L200 750 Z"/>
+    <rect x="110" y="680" width="20" height="40" opacity="0.8"/>
+    <rect x="145" y="640" width="15" height="60" opacity="0.8"/>
+    
+    <!-- Huts with curved roofs -->
+    <path d="M220 750 L220 700 Q240 680 260 700 L260 750 Z"/>
+    <path d="M280 750 L280 710 Q300 690 320 710 L320 750 Z"/>
+    <path d="M340 750 L340 690 Q365 665 390 690 L390 750 Z"/>
+    
+    <!-- Trees -->
+    <circle cx="50" cy="700" r="30"/>
+    <circle cx="70" cy="680" r="25"/>
+    <rect x="55" y="720" width="10" height="30"/>
+    <rect x="68" y="700" width="8" height="25"/>
+    
+    <circle cx="1700" cy="720" r="35"/>
+    <circle cx="1730" cy="690" r="28"/>
+    <rect x="1705" y="745" width="12" height="30"/>
+    <rect x="1725" y="715" width="10" height="30"/>
+    
+    <!-- Right village cluster -->
+    <path d="M1600 750 L1600 700 L1620 700 L1620 680 L1630 660 L1640 680 L1640 700 L1660 700 L1660 750 Z"/>
+    <path d="M1700 750 L1700 700 Q1720 680 1740 700 L1740 750 Z"/>
+    <path d="M1760 750 L1760 710 Q1780 690 1800 710 L1800 750 Z"/>
+    <path d="M1820 750 L1820 720 Q1840 700 1860 720 L1860 750 Z"/>
+  </g>
+  
+  <!-- Birds in sky -->
+  <g opacity="0.08" stroke="#A03B00" stroke-width="1" fill="none">
+    <path d="M300 150 Q310 140 320 150 Q330 140 340 150"/>
+    <path d="M450 180 Q458 172 466 180 Q474 172 482 180"/>
+    <path d="M600 120 Q610 112 620 120 Q630 112 640 120"/>
+    <path d="M800 200 Q808 193 816 200 Q824 193 832 200"/>
+    <path d="M1400 160 Q1410 152 1420 160 Q1430 152 1440 160"/>
+    <path d="M1500 130 Q1510 123 1520 130 Q1530 123 1540 130"/>
+  </g>
+  
+  <!-- Subtle circular elements representing connectivity -->
+  <circle cx="200" cy="200" r="150" stroke="#A03B00" stroke-width="0.5" opacity="0.03" fill="none"/>
+  <circle cx="1700" cy="300" r="200" stroke="#A03B00" stroke-width="0.5" opacity="0.03" fill="none"/>
+  <circle cx="960" cy="900" r="300" stroke="#A03B00" stroke-width="0.5" opacity="0.04" fill="none"/>
+  
+  <!-- Subtle connecting lines representing network/schemes -->
+  <g stroke="#A03B00" stroke-width="0.5" opacity="0.04">
+    <line x1="200" y1="200" x2="400" y2="350"/>
+    <line x1="400" y1="350" x2="600" y2="400"/>
+    <line x1="600" y1="400" x2="800" y2="350"/>
+    <line x1="800" y1="350" x2="1000" y2="400"/>
+    <line x1="1000" y1="400" x2="1200" y2="350"/>
+    <line x1="1200" y1="350" x2="1400" y2="300"/>
+    <line x1="1400" y1="300" x2="1600" y2="250"/>
+  </g>
+  
+  <!-- Bottom wave pattern -->
+  <path d="M0 1000 Q200 980 400 1000 Q600 1020 800 1000 Q1000 980 1200 1000 Q1400 1020 1600 1000 Q1800 980 1920 1000 L1920 1080 L0 1080 Z" fill="#E8DDD4" opacity="0.08"/>
+  <path d="M0 1020 Q300 1010 600 1020 Q900 1030 1200 1020 Q1500 1010 1920 1020 L1920 1080 L0 1080 Z" fill="#D4C4B8" opacity="0.05"/>
+</svg>

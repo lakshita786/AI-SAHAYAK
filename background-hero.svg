@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AI Sahayak | एआई सहायक - Home</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script>
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        colors: {
+          "primary": "#a03b00",
+          "primary-dark": "#c94c00",
+          "surface": "#f9f9f9",
+          "surface-container": "#f3f3f3",
+          "on-surface": "#1a1c1c",
+          "on-surface-variant": "#594138",
+          "secondary": "#5f5e5e",
+          "background": "#f9f9f9",
+          "inverse-surface": "#2f3131"
+        },
+        fontFamily: { "headline": ["Public Sans"], "body": ["Public Sans"], "label": ["Public Sans"] },
+        borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "full": "9999px"},
+      },
+    },
+  }
+</script>
+<style>
+  .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+  
+  /* Antigravity Theme - Glassmorphism & Floating */
+  body { 
+    font-family: 'Public Sans', sans-serif; 
+    background: 
+      radial-gradient(ellipse at 20% 20%, rgba(255, 248, 240, 0.8) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 80%, rgba(255, 236, 210, 0.6) 0%, transparent 50%),
+      radial-gradient(ellipse at 50% 50%, rgba(255, 245, 230, 0.4) 0%, transparent 70%),
+      linear-gradient(180deg, #FFF9F5 0%, #FFF5EE 50%, #FFEEE0 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+  
+  /* Floating Animation */
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+  }
+  @keyframes float-slow {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-12px) rotate(2deg); }
+  }
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+  
+  .float-animation { animation: float 4s ease-in-out infinite; }
+  .float-slow { animation: float-slow 6s ease-in-out infinite; }
+  
+  /* Glassmorphism Cards */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 
+      0 8px 32px rgba(160, 59, 0, 0.08),
+      0 2px 8px rgba(160, 59, 0, 0.04),
+      inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  }
+  
+  /* Floating Shadow */
+  .floating-shadow {
+    box-shadow: 
+      0 20px 60px rgba(160, 59, 0, 0.12),
+      0 8px 20px rgba(160, 59, 0, 0.08),
+      0 2px 6px rgba(160, 59, 0, 0.04);
+  }
+  
+  .glass-header {
+    background: linear-gradient(135deg, 
+      rgba(255, 255, 255, 0.9) 0%, 
+      rgba(255, 251, 245, 0.85) 50%, 
+      rgba(255, 245, 240, 0.9) 100%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255, 229, 210, 0.5);
+    box-shadow: 0 4px 30px rgba(160, 59, 0, 0.06);
+  }
+  
+  .glass-footer {
+    background: linear-gradient(180deg, 
+      rgba(255, 245, 230, 0.8) 0%, 
+      rgba(255, 255, 255, 0.9) 50%, 
+      rgba(255, 255, 255, 0.95) 100%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-top: 1px solid rgba(255, 229, 210, 0.4);
+  }
+  
+  /* Hover Effects */
+  .hover-lift {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .hover-lift:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 
+      0 25px 50px rgba(160, 59, 0, 0.15),
+      0 10px 20px rgba(160, 59, 0, 0.1);
+  }
+  
+  /* Gradient Border */
+  .gradient-border {
+    position: relative;
+  }
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 2px;
+    background: linear-gradient(135deg, #a03b00, #c94c00, #e56a00);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .gradient-border:hover::before {
+    opacity: 1;
+  }
+  
+  /* Shimmer Effect */
+  .shimmer {
+    background: linear-gradient(90deg, 
+      transparent 0%, 
+      rgba(255, 255, 255, 0.4) 50%, 
+      transparent 100%);
+    background-size: 200% 100%;
+    animation: shimmer 3s infinite;
+  }
+  
+  /* Chat bubbles */
+  .chat-bubble-user { border-radius: 20px 20px 6px 20px; }
+  .chat-bubble-ai { border-radius: 20px 20px 20px 6px; }
+  .chat-container { scroll-behavior: smooth; }
+  .chat-container::-webkit-scrollbar { width: 4px; }
+  .chat-container::-webkit-scrollbar-track { background: transparent; }
+  .chat-container::-webkit-scrollbar-thumb { background: #d4c4bc; border-radius: 2px; }
+  
+  /* Typing animation */
+  .typing-dot { animation: typingBounce 1.2s infinite; }
+  .typing-dot:nth-child(2) { animation-delay: 0.2s; }
+  .typing-dot:nth-child(3) { animation-delay: 0.4s; }
+  @keyframes typingBounce { 0%, 60%, 100% { transform: translateY(0); } 30% { transform: translateY(-6px); } }
+  
+  /* Fade animations */
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+  .animate-fade { animation: fadeIn 0.4s ease-out; }
+  .animate-card { animation: fadeInUp 0.5s ease-out; animation-fill-mode: both; }
+  
+  /* Quick cards */
+  .quick-card { 
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1); 
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(10px);
+  }
+  .quick-card:hover { 
+    transform: translateY(-6px) scale(1.02); 
+    box-shadow: 0 20px 40px -12px rgba(160, 59, 0, 0.2); 
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  /* Primary Button */
+  .btn-primary { 
+    background: linear-gradient(135deg, #a03b00 0%, #c94c00 50%, #e56a00 100%);
+    background-size: 200% 200%;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(160, 59, 0, 0.3);
+  }
+  .btn-primary:hover { 
+    transform: translateY(-2px) scale(1.02); 
+    box-shadow: 0 8px 25px -5px rgba(160, 59, 0, 0.5);
+    background-position: 100% 100%;
+  }
+  
+  /* Input focus */
+  .input-focus:focus-within { 
+    box-shadow: 0 0 0 3px rgba(160, 59, 0, 0.15);
+    border-color: #a03b00;
+  }
+  
+  /* Gradient text */
+  .gradient-text { 
+    background: linear-gradient(135deg, #a03b00, #c94c00, #e56a00); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  /* Floating Elements Background */
+  .bg-floating-shapes::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+      radial-gradient(circle at 10% 20%, rgba(160, 59, 0, 0.03) 0%, transparent 40%),
+      radial-gradient(circle at 90% 80%, rgba(201, 76, 0, 0.04) 0%, transparent 40%),
+      radial-gradient(circle at 50% 10%, rgba(229, 106, 0, 0.03) 0%, transparent 30%);
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  /* Dark Mode Styles */
+  .dark body, body.dark {
+    background: 
+      radial-gradient(ellipse at 20% 20%, rgba(30, 20, 15, 0.9) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 80%, rgba(40, 25, 20, 0.8) 0%, transparent 50%),
+      linear-gradient(180deg, #1a1512 0%, #151210 50%, #0f0d0a 100%) !important;
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+  
+  .dark .glass-card, body.dark .glass-card {
+    background: rgba(30, 25, 20, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  }
+  
+  .dark .glass-header, body.dark .glass-header {
+    background: linear-gradient(135deg, rgba(30, 25, 20, 0.95) 0%, rgba(25, 20, 15, 0.9) 100%);
+    border-bottom: 1px solid rgba(255, 229, 210, 0.1);
+  }
+  
+  .dark .glass-footer, body.dark .glass-footer {
+    background: linear-gradient(180deg, rgba(20, 15, 10, 0.9) 0%, rgba(30, 25, 20, 0.95) 100%);
+    border-top: 1px solid rgba(255, 229, 210, 0.1);
+  }
+  
+  .dark .text-on-surface, body.dark .text-on-surface,
+  .dark h1, body.dark h1, .dark h2, body.dark h2, .dark h3, body.dark h3, .dark h4, body.dark h4,
+  .dark .text-\[\#1a1c1c\], body.dark .text-\[\#1a1c1c\] {
+    color: #f5f0e8 !important;
+  }
+  
+  .dark .text-\[\#5f5e5e\], body.dark .text-\[\#5f5e5e\],
+  .dark .text-\[\#594138\], body.dark .text-\[\#594138\] {
+    color: #b8b0a0 !important;
+  }
+  
+  .dark .bg-white, body.dark .bg-white,
+  .dark .glass-card, body.dark .glass-card {
+    background: rgba(35, 28, 22, 0.8) !important;
+  }
+  
+  .dark .border-gray-100, body.dark .border-gray-100,
+  .dark .border-gray-200, body.dark .border-gray-200 {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+  }
+  
+  .dark .input-focus, body.dark .input-focus,
+  .dark input, body.dark input,
+  .dark textarea, body.dark textarea,
+  .dark select, body.dark select {
+    background: rgba(30, 25, 20, 0.8) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    color: #f5f0e8 !important;
+  }
+  
+  .dark ::placeholder, body.dark ::placeholder {
+    color: #8a8078 !important;
+  }
+  
+  /* Smooth transition for dark mode */
+  .dark *, body.dark * {
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  /* Bookmark/Heart animation */
+  @keyframes heartBeat {
+    0%, 100% { transform: scale(1); }
+    25% { transform: scale(1.3); }
+    50% { transform: scale(1); }
+    75% { transform: scale(1.2); }
+  }
+  .heart-beat { animation: heartBeat 0.6s ease-in-out; }
+  
+  /* Toast notification */
+  .toast {
+    animation: slideIn 0.3s ease-out;
+  }
+  @keyframes slideIn {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  
+  /* Mobile bottom nav */
+  .mobile-nav {
+    display: none;
+  }
+  @media (max-width: 768px) {
+    .mobile-nav {
+      display: flex;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 251, 245, 0.9) 100%);
+      backdrop-filter: blur(20px);
+      border-top: 1px solid rgba(255, 229, 210, 0.5);
+      padding: 0.5rem;
+      padding-bottom: calc(0.5rem + env(safe-area-inset-bottom, 0rem));
+      z-index: 100;
+      box-shadow: 0 -4px 30px rgba(160, 59, 0, 0.1);
+    }
+    .mobile-nav.dark {
+      background: linear-gradient(135deg, rgba(30, 25, 20, 0.95) 0%, rgba(25, 20, 15, 0.9) 100%);
+      border-top-color: rgba(255, 229, 210, 0.1);
+    }
+    .mobile-nav-item {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0.5rem;
+      border-radius: 1rem;
+      color: #5f5e5e;
+      text-decoration: none;
+      font-size: 0.7rem;
+      font-weight: 500;
+    }
+    .mobile-nav-item.active {
+      color: #a03b00;
+    }
+    .mobile-nav-item span:first-child {
+      font-size: 1.5rem;
+      margin-bottom: 0.25rem;
+    }
+    main {
+      padding-bottom: 5rem !important;
+    }
+  }
+</style>
+</head>
+<body class="flex flex-col min-h-screen text-on-surface bg-floating-shapes">
+<header class="fixed top-0 left-0 right-0 z-50 glass-header">
+<div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-2xl bg-gradient-to-br from-[#a03b00] to-[#c94c00] flex items-center justify-center shadow-lg floating-shadow">
+<span class="material-symbols-outlined text-white text-xl">psychology</span>
+</div>
+<div>
+<span class="text-xl font-bold gradient-text">AI Sahayak</span>
+<span class="text-[10px] text-[#5f5e5e] block -mt-0.5">एआई सहायक</span>
+</div>
+</div>
+<nav class="hidden lg:flex items-center gap-2">
+<a class="px-5 py-2.5 text-[#a03b00] font-semibold bg-[#a03b00]/10 rounded-xl hover:bg-[#a03b00]/20 transition-all hover-lift" href="/">Home</a>
+<a class="px-5 py-2.5 text-[#5f5e5e] font-medium hover:text-[#a03b00] hover:bg-[#a03b00]/10 rounded-xl transition-all hover-lift" href="/eligibility">Eligibility</a>
+<a class="px-5 py-2.5 text-[#5f5e5e] font-medium hover:text-[#a03b00] hover:bg-[#a03b00]/10 rounded-xl transition-all hover-lift" href="/schemes">Schemes</a>
+<a class="px-5 py-2.5 text-[#5f5e5e] font-medium hover:text-[#a03b00] hover:bg-[#a03b00]/10 rounded-xl transition-all hover-lift" href="/support">Support</a>
+<a class="px-5 py-2.5 text-[#5f5e5e] font-medium hover:text-[#a03b00] hover:bg-[#a03b00]/10 rounded-xl transition-all hover-lift" href="/about">About</a>
+</nav>
+<div class="flex items-center gap-3">
+<button onclick="toggleDarkMode()" id="dark-mode-btn" class="p-3 text-[#5f5e5e] hover:text-[#a03b00] hover:bg-[#a03b00]/10 rounded-xl transition-all hover-lift">
+<span class="material-symbols-outlined text-xl">dark_mode</span>
+</button>
+<button onclick="showBookmarks()" class="p-3 text-[#5f5e5e] hover:text-[#a03b00] hover:bg-[#a03b00]/10 rounded-xl transition-all hover-lift relative">
+<span class="material-symbols-outlined text-xl">bookmark</span>
+<span id="bookmark-count" class="absolute -top-1 -right-1 w-5 h-5 bg-[#a03b00] text-white text-[10px] font-bold rounded-full flex items-center justify-center hidden">0</span>
+</button>
+<button class="p-3 text-[#5f5e5e] hover:text-[#a03b00] hover:bg-[#a03b00]/10 rounded-xl transition-all hover-lift">
+<span class="material-symbols-outlined text-xl">account_circle</span>
+</button>
+</div>
+</div>
+</header>
+
+<main class="flex-grow pt-20 pb-16 px-4">
+<div class="max-w-6xl mx-auto space-y-8">
+
+<div class="text-center py-8 animate-fade">
+  <div class="inline-flex items-center gap-2 bg-white/60 backdrop-blur-sm px-4 py-2 rounded-full mb-4 shadow-sm">
+    <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+    <span class="text-sm font-medium text-[#5f5e5e]">AI Powered • Bilingual Support</span>
+  </div>
+  <h1 class="text-4xl md:text-5xl font-bold text-[#1a1c1c] mb-3">
+    <span class="gradient-text">Your AI Assistant</span> for Government Schemes
+  </h1>
+  <p class="text-[#5f5e5e] text-lg max-w-xl mx-auto">Find the right welfare programs, jobs, and training for your family. Ask in Hindi or English.</p>
+</div>
+
+<!-- Hero Stats -->
+<div class="flex flex-wrap justify-center gap-6 mb-8">
+  <div class="bg-white/70 backdrop-blur-sm px-6 py-3 rounded-2xl shadow-sm border border-gray-100 flex items-center gap-3">
+    <div class="w-10 h-10 bg-[#a03b00]/10 rounded-xl flex items-center justify-center">
+      <span class="material-symbols-outlined text-[#a03b00]">verified</span>
+    </div>
+    <div>
+      <p class="text-2xl font-bold text-[#1a1c1c]">49+</p>
+      <p class="text-xs text-[#5f5e5e]">Schemes</p>
+    </div>
+  </div>
+  <div class="bg-white/70 backdrop-blur-sm px-6 py-3 rounded-2xl shadow-sm border border-gray-100 flex items-center gap-3">
+    <div class="w-10 h-10 bg-green-100 rounded-xl flex items-center justify-center">
+      <span class="material-symbols-outlined text-green-600">work</span>
+    </div>
+    <div>
+      <p class="text-2xl font-bold text-[#1a1c1c]">Jobs</p>
+      <p class="text-xs text-[#5f5e5e]">Employment</p>
+    </div>
+  </div>
+  <div class="bg-white/70 backdrop-blur-sm px-6 py-3 rounded-2xl shadow-sm border border-gray-100 flex items-center gap-3">
+    <div class="w-10 h-10 bg-blue-100 rounded-xl flex items-center justify-center">
+      <span class="material-symbols-outlined text-blue-600">school</span>
+    </div>
+    <div>
+      <p class="text-2xl font-bold text-[#1a1c1c]">Free</p>
+      <p class="text-xs text-[#5f5e5e]">Training</p>
+    </div>
+  </div>
+</div>
+
+<div class="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden flex flex-col" style="height:480px">
+<div class="px-6 py-5 bg-gradient-to-r from-[#a03b00] to-[#c94c00] flex items-center gap-4 shadow-lg">
+<div class="w-12 h-12 bg-white/20 rounded-2xl flex items-center justify-center shadow-lg">
+<span class="material-symbols-outlined text-white text-2xl">smart_toy</span>
+</div>
+<div class="flex-1">
+<p class="text-white font-bold text-lg">AI Sahayak</p>
+<p class="text-white/70 text-sm">Ask in Hindi or English — voice supported</p>
+</div>
+<div class="flex items-center gap-3">
+<span class="w-3 h-3 bg-green-400 rounded-full animate-pulse"></span>
+<span class="text-white/90 text-sm font-medium">Online</span>
+</div>
+</div>
+<div id="chat-container" class="flex-1 overflow-y-auto p-6 space-y-5 chat-container glass-card">
+<div class="flex items-start gap-4 animate-fade">
+<div class="w-12 h-12 bg-gradient-to-br from-[#a03b00] to-[#c94c00] rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg floating-shadow">
+<span class="material-symbols-outlined text-white text-xl">smart_toy</span>
+</div>
+<div class="glass-card rounded-3xl rounded-tl-md p-5 max-w-[85%]">
+<p class="text-[#1a1c1c] text-sm leading-relaxed">
+<span class="font-bold text-[#a03b00] text-base">नमस्ते! 🙏</span><br/><br/>
+मैं आपकी सरकारी योजनाओं में मदद के लिए यहाँ हूँ।<br/><br/>
+अपना सवाल हिंदी या अंग्रेजी में लिखें या बोलें।
+</p>
+<span class="text-xs text-[#a3a3a3] mt-3 block border-t border-gray-100 pt-2">उदाहरण: "mujhe kisan ke liye yojana batao"</span>
+</div>
+</div>
+</div>
+<div class="px-6 py-5 glass-card border-t border-white/30">
+<div class="flex items-center gap-4 bg-gradient-to-r from-white/60 to-white/40 rounded-2xl px-5 py-4 border border-white/50 input-focus hover-lift">
+<button id="voice-btn" onclick="toggleVoice()" class="w-12 h-12 rounded-2xl btn-primary flex items-center justify-center flex-shrink-0 shadow-lg hover:scale-105 transition-transform relative">
+<div id="voice-pulse" class="absolute inset-0 rounded-2xl bg-white opacity-30 animate-ping"></div>
+<span id="voice-icon" class="material-symbols-outlined text-white text-xl">mic</span>
+</button>
+<input id="chat-input" type="text" placeholder="अपना सवाल लिखें... | Write your question..." 
+  class="flex-1 bg-transparent border-none focus:ring-0 text-base font-medium placeholder:text-[#9ca3af] text-[#1a1c1c] outline-none"/>
+<button onclick="sendChat()" class="w-12 h-12 rounded-2xl btn-primary flex items-center justify-center flex-shrink-0 shadow-lg hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-white text-xl">send</span>
+</button>
+</div>
+<div class="mt-3 flex items-center justify-center gap-3 text-xs text-[#9ca3af]">
+<span class="w-1.5 h-1.5 bg-[#a03b00] rounded-full"></span>
+<span>Voice input • Bilingual support • Free for all</span>
+</div>
+</div>
+</div>
+
+<!-- Listening Modal -->
+<div id="listening-modal" class="fixed inset-0 z-[1001] hidden items-center justify-center" style="display:none">
+<div class="absolute inset-0 bg-black/40 backdrop-blur-sm" onclick="toggleVoice()"></div>
+<div class="relative bg-white rounded-3xl p-8 max-w-sm w-full mx-4 shadow-2xl text-center">
+<div class="mb-6">
+<div class="w-24 h-24 mx-auto bg-gradient-to-br from-[#a03b00] to-[#c94c00] rounded-full flex items-center justify-center mb-4 animate-pulse">
+<span class="material-symbols-outlined text-white text-5xl">mic</span>
+</div>
+<h3 class="text-xl font-bold text-[#1a1c1c] mb-2">सुन रहा हूँ...</h3>
+<p class="text-[#5f5e5e] text-sm">बोलो भाई, तुम्हारी सुन रहा हूँ</p>
+</div>
+<div class="flex justify-center gap-2 mb-4">
+<span class="w-3 h-3 bg-[#a03b00] rounded-full animate-bounce" style="animation-delay:0s"></span>
+<span class="w-3 h-3 bg-[#a03b00] rounded-full animate-bounce" style="animation-delay:0.1s"></span>
+<span class="w-3 h-3 bg-[#a03b00] rounded-full animate-bounce" style="animation-delay:0.2s"></span>
+</div>
+<button onclick="toggleVoice()" class="px-6 py-3 bg-[#f3f3f3] text-[#5f5e5e] rounded-xl font-medium hover:bg-gray-200 transition-all">
+रोको
+</button>
+</div>
+</div>
+
+<div id="eligible-panel" class="hidden bg-gradient-to-br from-[#a03b00] to-[#c94c00] rounded-2xl p-6 text-white shadow-xl">
+<div class="flex items-center gap-3 mb-4">
+<div class="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-white text-2xl">verified_user</span>
+</div>
+<div>
+<h3 class="font-bold text-xl">You Qualify For</h3>
+<p class="text-white/70 text-sm">Based on your profile information</p>
+</div>
+</div>
+<div id="eligible-schemes-list" class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5"></div>
+<button onclick="window.location.href='/schemes'" class="w-full bg-white/20 backdrop-blur-sm py-3.5 rounded-xl font-semibold text-sm hover:bg-white/30 transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-lg">explore</span>
+View All 49+ Schemes
+</button>
+</div>
+
+<div class="animate-card" style="animation-delay: 0.1s">
+<h3 class="text-xl font-bold text-[#1a1c1c] mb-5 flex items-center gap-3">
+<span class="w-10 h-10 bg-[#a03b00]/10 rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-[#a03b00] text-xl">bolt</span>
+</span>
+Quick Actions
+</h3>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<a href="/" onclick="sendMessage('I need job opportunities near my village, what work is available?')" class="quick-card bg-white rounded-2xl p-6 border border-gray-100 text-center group hover:border-[#a03b00]/30 hover:shadow-xl transition-all">
+<div class="w-14 h-14 bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform shadow-sm">
+<span class="material-symbols-outlined text-[#a03b00] text-3xl">work</span>
+</div>
+<h4 class="font-bold text-[#1a1c1c] mb-1">Find Jobs</h4>
+<p class="text-[#5f5e5e] text-xs">MGNREGA, wages</p>
+</a>
+<a href="/eligibility" class="quick-card bg-white rounded-2xl p-6 border border-gray-100 text-center group hover:border-[#a03b00]/30 hover:shadow-xl transition-all">
+<div class="w-14 h-14 bg-gradient-to-br from-green-50 to-green-100 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform shadow-sm">
+<span class="material-symbols-outlined text-green-600 text-3xl">verified</span>
+</div>
+<h4 class="font-bold text-[#1a1c1c] mb-1">Eligibility</h4>
+<p class="text-[#5f5e5e] text-xs">Check schemes</p>
+</a>
+<a href="/" onclick="sendMessage('What free skill training programs are available for rural youth?')" class="quick-card bg-white rounded-2xl p-6 border border-gray-100 text-center group hover:border-[#a03b00]/30 hover:shadow-xl transition-all">
+<div class="w-14 h-14 bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform shadow-sm">
+<span class="material-symbols-outlined text-blue-600 text-3xl">school</span>
+</div>
+<h4 class="font-bold text-[#1a1c1c] mb-1">Training</h4>
+<p class="text-[#5f5e5e] text-xs">Free courses</p>
+</a>
+<a href="/schemes" class="quick-card bg-white rounded-2xl p-6 border border-gray-100 text-center group hover:border-[#a03b00]/30 hover:shadow-xl transition-all">
+<div class="w-14 h-14 bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform shadow-sm">
+<span class="material-symbols-outlined text-purple-600 text-3xl">account_balance</span>
+</div>
+<h4 class="font-bold text-[#1a1c1c] mb-1">All Schemes</h4>
+<p class="text-[#5f5e5e] text-xs">49+ programs</p>
+</a>
+</div>
+</div>
+
+<div class="animate-card" style="animation-delay: 0.2s">
+<div class="glass-card rounded-3xl p-8">
+<div class="flex items-center gap-4 mb-6">
+<div class="w-14 h-14 bg-[#a03b00]/10 rounded-2xl flex items-center justify-center">
+<span class="material-symbols-outlined text-[#a03b00] text-2xl">phone</span>
+</div>
+<h4 class="font-bold text-xl text-[#1a1c1c]">Government Helplines</h4>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+<div class="glass-card rounded-2xl p-5 flex items-center justify-between hover-lift">
+<div>
+<p class="font-semibold text-[#1a1c1c]">PM-KISAN</p>
+<p class="text-xs text-[#9ca3af]">Farmer welfare</p>
+</div>
+<a href="tel:1800-11-0001" class="bg-gradient-to-r from-[#a03b00] to-[#c94c00] text-white px-5 py-2.5 rounded-xl font-bold text-sm hover:shadow-lg transition-all">1800-11-0001</a>
+</div>
+<div class="glass-card rounded-2xl p-5 flex items-center justify-between hover-lift">
+<div>
+<p class="font-semibold text-[#1a1c1c]">Ayushman Bharat</p>
+<p class="text-xs text-[#9ca3af]">Health cover</p>
+</div>
+<a href="tel:14555" class="bg-gradient-to-r from-green-500 to-green-600 text-white px-5 py-2.5 rounded-xl font-bold text-sm hover:shadow-lg transition-all">14555</a>
+</div>
+<div class="glass-card rounded-2xl p-5 flex items-center justify-between hover-lift">
+<div>
+<p class="font-semibold text-[#1a1c1c]">MGNREGA</p>
+<p class="text-xs text-[#9ca3af]">Rural jobs</p>
+</div>
+<a href="tel:1800-180-1551" class="bg-blue-600 text-white px-4 py-2 rounded-xl font-bold text-sm hover:bg-blue-700 transition-all">1800-180-1551</a>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</main>
+
+<div class="fixed bottom-6 right-6 z-50">
+<button onclick="window.location.href='/support'" class="btn-primary h-16 w-16 rounded-2xl flex items-center justify-center shadow-xl hover:shadow-2xl hover-lift transition-all float-animation">
+<span class="material-symbols-outlined text-white text-2xl">chat</span>
+</button>
+</div>
+
+<footer class="glass-footer mt-auto">
+<div class="max-w-6xl mx-auto px-6 py-8">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-2xl bg-gradient-to-br from-[#a03b00] to-[#c94c00] flex items-center justify-center shadow-lg">
+<span class="material-symbols-outlined text-white text-lg">psychology</span>
+</div>
+<div>
+<span class="text-base font-bold gradient-text">AI Sahayak</span>
+<p class="text-xs text-[#5f5e5e] mt-0.5">Empowering Rural Livelihoods</p>
+</div>
+</div>
+<nav class="flex items-center gap-8">
+<a class="text-sm text-[#5f5e5e] hover:text-[#a03b00] transition-colors font-medium hover-lift px-3 py-1 rounded-lg" href="/support">Privacy</a>
+<a class="text-sm text-[#5f5e5e] hover:text-[#a03b00] transition-colors font-medium hover-lift px-3 py-1 rounded-lg" href="/support">Terms</a>
+<a class="text-sm text-[#5f5e5e] hover:text-[#a03b00] transition-colors font-medium hover-lift px-3 py-1 rounded-lg" href="/support">Support</a>
+</nav>
+</div>
+<div class="mt-6 pt-6 border-t border-orange-100/50 text-center">
+<p class="text-xs text-[#a3a3a3]">© 2024 AI Sahayak. Built to help rural workers access government benefits.</p>
+</div>
+</div>
+</footer>
+
+<script>
+let conversationHistory = [];
+let userProfile = { age: null, monthly_income: null, occupation: null, state: null, family_size: 4 };
+let isListening = false;
+let bookmarkedSchemes = JSON.parse(localStorage.getItem('bookmarkedSchemes') || '[]');
+
+// Dark Mode
+function toggleDarkMode() {
+  const body = document.body;
+  const btn = document.getElementById('dark-mode-btn');
+  const isDark = body.classList.contains('dark');
+  
+  if (isDark) {
+    body.classList.remove('dark');
+    localStorage.setItem('darkMode', 'false');
+    btn.innerHTML = '<span class="material-symbols-outlined text-xl">dark_mode</span>';
+  } else {
+    body.classList.add('dark');
+    localStorage.setItem('darkMode', 'true');
+    btn.innerHTML = '<span class="material-symbols-outlined text-xl">light_mode</span>';
+  }
+  
+  // Update mobile nav
+  const mobileNav = document.querySelector('.mobile-nav');
+  if (mobileNav) mobileNav.classList.toggle('dark');
+}
+
+// Load dark mode preference
+if (localStorage.getItem('darkMode') === 'true') {
+  document.body.classList.add('dark');
+  document.getElementById('dark-mode-btn').innerHTML = '<span class="material-symbols-outlined text-xl">light_mode</span>';
+}
+
+// Bookmarks
+function toggleBookmark(schemeName, event) {
+  event.stopPropagation();
+  const idx = bookmarkedSchemes.indexOf(schemeName);
+  if (idx > -1) {
+    bookmarkedSchemes.splice(idx, 1);
+    showToast('Removed from bookmarks', 'removed');
+  } else {
+    bookmarkedSchemes.push(schemeName);
+    showToast('Added to bookmarks!', 'added');
+  }
+  localStorage.setItem('bookmarkedSchemes', JSON.stringify(bookmarkedSchemes));
+  updateBookmarkCount();
+  if (typeof renderSchemes === 'function') renderSchemes();
+}
+
+function isBookmarked(schemeName) {
+  return bookmarkedSchemes.includes(schemeName);
+}
+
+function updateBookmarkCount() {
+  const badge = document.getElementById('bookmark-count');
+  if (bookmarkedSchemes.length > 0) {
+    badge.textContent = bookmarkedSchemes.length;
+    badge.classList.remove('hidden');
+  } else {
+    badge.classList.add('hidden');
+  }
+}
+
+function showBookmarks() {
+  if (bookmarkedSchemes.length === 0) {
+    showToast('No bookmarked schemes yet', 'info');
+    return;
+  }
+  // Navigate to schemes with filter
+  window.location.href = '/schemes?filter=bookmarked';
+}
+
+function showToast(message, type = 'info') {
+  const toast = document.createElement('div');
+  toast.className = `toast fixed top-24 right-6 z-[2000] px-6 py-4 rounded-2xl shadow-2xl font-medium text-sm flex items-center gap-3`;
+  
+  if (type === 'added') {
+    toast.classList.add('bg-gradient-to-r', 'from-green-500', 'to-green-600', 'text-white');
+    toast.innerHTML = '<span class="material-symbols-outlined">bookmark_added</span>' + message;
+  } else if (type === 'removed') {
+    toast.classList.add('bg-gradient-to-r', 'from-gray-500', 'to-gray-600', 'text-white');
+    toast.innerHTML = '<span class="material-symbols-outlined">bookmark_remove</span>' + message;
+  } else {
+    toast.classList.add('bg-gradient-to-r', 'from-[#a03b00]', 'to-[#c94c00]', 'text-white');
+    toast.innerHTML = '<span class="material-symbols-outlined">info</span>' + message;
+  }
+  
+  document.body.appendChild(toast);
+  setTimeout(() => toast.remove(), 3000);
+}
+
+function shareScheme(schemeName, schemeDetails, event) {
+  event.stopPropagation();
+  const text = `*${schemeName}*\n\n${schemeDetails}\n\nCheck eligibility on AI Sahayak!`;
+  
+  if (navigator.share) {
+    navigator.share({
+      title: schemeName,
+      text: text,
+      url: window.location.origin
+    });
+  } else {
+    // Fallback: copy to clipboard
+    navigator.clipboard.writeText(text).then(() => {
+      showToast('Copied to clipboard! Share via WhatsApp', 'info');
+    });
+  }
+}
+
+// Quick Profile Setup
+function showQuickProfile() {
+  const modal = document.createElement('div');
+  modal.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.4);backdrop-filter:blur(8px);z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px;';
+  modal.innerHTML = `
+    <div class="glass-card rounded-3xl max-w-md w-full p-6 shadow-2xl">
+      <div class="flex justify-between items-center mb-6">
+        <h2 class="text-xl font-bold text-[#1a1c1c]">Quick Profile Setup</h2>
+        <button onclick="this.closest('[style]').remove()" class="p-2 hover:bg-gray-100 rounded-xl">
+          <span class="material-symbols-outlined text-[#5f5e5e]">close</span>
+        </button>
+      </div>
+      <div class="space-y-4">
+        <div>
+          <label class="block text-sm font-semibold text-[#1a1c1c] mb-2">उम्र | Age</label>
+          <input type="number" id="quick-age" placeholder="जैसे: 35" class="w-full bg-white/60 border border-gray-200 rounded-xl px-4 py-3 text-[#1a1c1c]">
+        </div>
+        <div>
+          <label class="block text-sm font-semibold text-[#1a1c1c] mb-2">मासिक आय | Monthly Income (₹)</label>
+          <input type="number" id="quick-income" placeholder="जैसे: 15000" class="w-full bg-white/60 border border-gray-200 rounded-xl px-4 py-3 text-[#1a1c1c]">
+        </div>
+        <div>
+          <label class="block text-sm font-semibold text-[#1a1c1c] mb-2">व्यवसाय | Occupation</label>
+          <select id="quick-occupation" class="w-full bg-white/60 border border-gray-200 rounded-xl px-4 py-3 text-[#1a1c1c]">
+            <option value="">चुनें</option>
+            <option value="farmer">किसान | Farmer</option>
+            <option value="labor">खेत मजदूर | Agricultural Laborer</option>
+            <option value="worker">दिहाड़ी मजदूर | Daily Wage Worker</option>
+            <option value="trader">छोटा व्यापारी | Small Trader</option>
+            <option value="other">अन्य | Other</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-semibold text-[#1a1c1c] mb-2">राज्य | State</label>
+          <select id="quick-state" class="w-full bg-white/60 border border-gray-200 rounded-xl px-4 py-3 text-[#1a1c1c]">
+            <option value="">चुनें</option>
+            <option value="UP">Uttar Pradesh</option>
+            <option value="Bihar">Bihar</option>
+            <option value="MP">Madhya Pradesh</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="West Bengal">West Bengal</option>
+            <option value="Jharkhand">Jharkhand</option>
+          </select>
+        </div>
+        <button onclick="saveQuickProfile()" class="w-full btn-primary text-white font-bold py-4 rounded-2xl mt-4">
+          Save Profile
+        </button>
+      </div>
+    </div>`;
+  modal.addEventListener('click', (e) => { if (e.target === modal) modal.remove(); });
+  document.body.appendChild(modal);
+}
+
+function saveQuickProfile() {
+  const age = document.getElementById('quick-age').value;
+  const income = document.getElementById('quick-income').value;
+  const occupation = document.getElementById('quick-occupation').value;
+  const state = document.getElementById('quick-state').value;
+  
+  if (!age || !income || !occupation || !state) {
+    showToast('Please fill all fields', 'info');
+    return;
+  }
+  
+  userProfile = { age: parseInt(age), monthly_income: parseFloat(income), occupation, state, family_size: 4 };
+  localStorage.setItem('userProfile', JSON.stringify(userProfile));
+  
+  document.querySelector('[style]').remove();
+  showToast('Profile saved! Checking eligibility...', 'added');
+  loadEligibility();
+}
+
+// Initialize
+updateBookmarkCount();
+if (localStorage.getItem('userProfile')) {
+  userProfile = JSON.parse(localStorage.getItem('userProfile'));
+  setTimeout(loadEligibility, 500);
+}
+
+function loadEligibility() {
+  if (!userProfile.age || !userProfile.monthly_income || !userProfile.occupation || !userProfile.state) return;
+  fetch('/api/eligibility', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify(userProfile)
+  }).then(r => r.json()).then(data => {
+    const results = data.rule_based || {};
+    const eligible = Object.entries(results).filter(([k, v]) => v);
+    if (eligible.length > 0) {
+      document.getElementById('eligible-panel').classList.remove('hidden');
+      const names = { pmkisan: 'PM-KISAN', mgnrega: 'MGNREGA', mudra: 'MUDRA Loan', awas: 'PM Awas Yojana', ayushman: 'Ayushman Bharat', ujjwala: 'PM Ujjwala' };
+      const icons = { pmkisan: 'agriculture', mgnrega: 'construction', mudra: 'account_balance', awas: 'home', ayushman: 'health_and_safety', ujjwala: 'local_fire_department' };
+      document.getElementById('eligible-schemes-list').innerHTML = eligible.map(([k]) => `
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 cursor-pointer hover:bg-white/20 transition-all flex items-center gap-3" onclick="addChatBubble('Mujhe ${names[k] || k} ke baare mein full details batao', false, true)">
+          <span class="material-symbols-outlined text-white text-xl">${icons[k] || 'check_circle'}</span>
+          <span class="font-medium">${names[k] || k}</span>
+        </div>`).join('');
+    }
+  });
+}
+
+function addChatBubble(text, isUser = false, speakNow = false) {
+  const container = document.getElementById('chat-container');
+  const bubble = document.createElement('div');
+  bubble.className = `flex items-start gap-3 animate-fade ${isUser ? 'flex-row-reverse' : ''}`;
+  const iconClass = isUser ? 'bg-gradient-to-br from-[#a03b00] to-[#c94c00] ring-2 ring-[#a03b00]/20' : 'bg-[#a03b00]/10 ring-2 ring-[#a03b00]/10';
+  const textClass = isUser ? 'bg-gradient-to-br from-[#a03b00] to-[#c94c00] text-white shadow-md chat-bubble-user' : 'bg-[#f8f8f8] text-[#1a1c1c] shadow-sm chat-bubble-ai';
+  bubble.innerHTML = `
+    <div class="w-9 h-9 ${iconClass} rounded-full flex items-center justify-center flex-shrink-0">
+      <span class="material-symbols-outlined ${isUser ? 'text-white' : 'text-[#a03b00]'} text-lg">${isUser ? 'person' : 'smart_toy'}</span>
+    </div>
+    <div class="${textClass} p-4 max-w-[85%] rounded-2xl">
+      <p class="text-sm leading-relaxed whitespace-pre-line">${text}</p>
+    </div>`;
+  container.appendChild(bubble);
+  container.scrollTop = container.scrollHeight;
+}
+
+function addTyping() {
+  const container = document.getElementById('chat-container');
+  const div = document.createElement('div');
+  div.id = 'typing';
+  div.className = 'flex items-start gap-3';
+  div.innerHTML = `<div class="w-9 h-9 bg-[#a03b00]/10 rounded-full flex items-center justify-center flex-shrink-0 ring-2 ring-[#a03b00]/10"><span class="material-symbols-outlined text-[#a03b00] text-lg">smart_toy</span></div><div class="bg-[#f8f8f8] rounded-2xl rounded-tl-6px p-4 shadow-sm flex items-center gap-2"><span class="typing-dot w-2 h-2 bg-[#a03b00] rounded-full"></span><span class="typing-dot w-2 h-2 bg-[#a03b00] rounded-full"></span><span class="typing-dot w-2 h-2 bg-[#a03b00] rounded-full"></span></div>`;
+  container.appendChild(div);
+  container.scrollTop = container.scrollHeight;
+}
+
+function removeTyping() { const t = document.getElementById('typing'); if (t) t.remove(); }
+
+async function sendChat() {
+  const input = document.getElementById('chat-input');
+  const msg = input.value.trim();
+  if (!msg) return;
+  input.value = '';
+  addChatBubble(msg, true, false);
+  conversationHistory.push({ role: 'user', content: msg });
+  addTyping();
+  extractProfile(msg);
+  try {
+    const res = await fetch('/api/chat', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ message: msg, history: conversationHistory.slice(-8), user_profile: userProfile })
+    });
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+    }
+    const data = await res.json();
+    removeTyping();
+    const reply = data.response || 'Kuch problem hui, please try again.';
+    addChatBubble(reply, false, true);
+    conversationHistory.push({ role: 'assistant', content: reply });
+  } catch(e) {
+    removeTyping();
+    console.error('Chat error:', e);
+    addChatBubble('Error: ' + e.message + '. Please try again.', false, false);
+  }
+}
+
+function extractProfile(text) {
+  const ageMatch = text.match(/(\d+)\s*(saal|years?|yrs?|वर्ष|umr)/i);
+  if (ageMatch && !userProfile.age) {
+    const a = parseInt(ageMatch[1]);
+    if (a > 10 && a < 100) userProfile.age = a;
+  }
+  const incomeMatch = text.match(/(?:income|kamai|earning|₹|rs|paisa|maasik)?\s*(\d+)\s*(?:rupiya|rs|₹|per\s*month|monthly|maah|maasika)?/i);
+  if (incomeMatch && !userProfile.monthly_income) {
+    const inc = parseInt(incomeMatch[1]);
+    if (inc > 100 && inc < 1000000) userProfile.monthly_income = inc;
+  }
+  const occMap = { 'farmer': 'farmer', 'kisan': 'farmer', 'mazdoor': 'daily_wage_laborer', 'laborer': 'agricultural_laborer', 'artisan': 'artisan', 'trader': 'small_trader' };
+  for (const [k, v] of Object.entries(occMap)) { if (text.toLowerCase().includes(k) && !userProfile.occupation) { userProfile.occupation = v; break; } }
+  const stateMap = { 'up': 'UP', 'uttar pradesh': 'UP', 'bihar': 'Bihar', 'mp': 'MP', 'madhya pradesh': 'MP', 'rajasthan': 'Rajasthan', 'odisha': 'Odisha', 'maharashtra': 'Maharashtra', 'west bengal': 'West Bengal', 'jharkhand': 'Jharkhand' };
+  for (const [k, v] of Object.entries(stateMap)) { if (text.toLowerCase().includes(k) && !userProfile.state) { userProfile.state = v; break; } }
+  if (userProfile.age && userProfile.monthly_income && userProfile.occupation && userProfile.state) {
+    setTimeout(loadEligibility, 500);
+  }
+}
+
+function toggleVoice() {
+  if (!('webkitSpeechRecognition' in window)) {
+    addChatBubble('Voice input not supported. Please type instead.', false, false);
+    return;
+  }
+  if (isListening) {
+    isListening = false;
+    document.getElementById('voice-btn').classList.remove('listening');
+    document.getElementById('voice-pulse').classList.remove('opacity-60');
+    document.getElementById('voice-icon').textContent = 'mic';
+    document.getElementById('listening-modal').style.display = 'none';
+    return;
+  }
+  const recognition = new webkitSpeechRecognition();
+  recognition.lang = 'hi-IN, en-IN';
+  recognition.continuous = false;
+  recognition.interimResults = false;
+  isListening = true;
+  document.getElementById('voice-btn').classList.add('listening');
+  document.getElementById('voice-pulse').classList.add('opacity-60');
+  document.getElementById('voice-icon').textContent = 'mic_off';
+  document.getElementById('listening-modal').style.display = 'flex';
+  recognition.start();
+  recognition.onresult = (event) => {
+    const transcript = event.results[0][0].transcript;
+    document.getElementById('chat-input').value = transcript;
+    isListening = false;
+    document.getElementById('voice-btn').classList.remove('listening');
+    document.getElementById('voice-pulse').classList.remove('opacity-60');
+    document.getElementById('voice-icon').textContent = 'mic';
+    document.getElementById('listening-modal').style.display = 'none';
+    sendChat();
+  };
+  recognition.onerror = recognition.onend = () => {
+    isListening = false;
+    document.getElementById('voice-btn').classList.remove('listening');
+    document.getElementById('voice-pulse').classList.remove('opacity-60');
+    document.getElementById('voice-icon').textContent = 'mic';
+    document.getElementById('listening-modal').style.display = 'none';
+  };
+}
+
+let voicesLoaded = false;
+let queuedTexts = [];
+
+// Mobile Bottom Navigation
+document.write(`
+<div class="mobile-nav">
+  <a href="/" class="mobile-nav-item active">
+    <span class="material-symbols-outlined">home</span>
+    Home
+  </a>
+  <a href="/eligibility" class="mobile-nav-item">
+    <span class="material-symbols-outlined">verified</span>
+    Eligibility
+  </a>
+  <a href="/schemes" class="mobile-nav-item">
+    <span class="material-symbols-outlined">folder_special</span>
+    Schemes
+  </a>
+  <a href="#" onclick="showQuickProfile(); return false;" class="mobile-nav-item">
+    <span class="material-symbols-outlined">person</span>
+    Profile
+  </a>
+  <a href="/support" class="mobile-nav-item">
+    <span class="material-symbols-outlined">support_agent</span>
+    Support
+  </a>
+</div>
+`);
+
+</script>
+</body></html>
