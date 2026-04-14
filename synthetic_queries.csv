@@ -1,0 +1,50 @@
+scheme_name,ministry,category,eligibility,min_age,max_age,max_income,occupation_type,benefits,state_specific
+pm-kisan samman nidhi,agriculture & farmers welfare,farmer,small and marginal farmers with landholding up to 2 hectares,18,100,10000,farmer,₹6000 per year in three installments,all india
+mgnrega,rural development,employment,rural households aged 18 years and above,18,60,15000,all,100 days guaranteed wage employment per year,all india
+pmegp,msme,self_employment,individuals above 18 years with educational qualification above 8th class,18,60,20000,all,subsidy up to 35% for micro enterprises,all india
+pm awas yojana gramin,rural development,housing,"households without pucca house, priority to sc/st and minorities",18,100,10000,all,"₹1.20 lakh in plain areas, ₹1.30 lakh in hilly areas",all india
+ayushman bharat pradhan mantri jan arogya yojana,health & family welfare,health,families identified through secc 2011 data,0,100,25000,all,₹5 lakh coverage for secondary and tertiary hospitalization,all india
+skill india mission,skill development,skill_training,youth aged 15-45 years,15,45,50000,all,free skill training with certification and placement,all india
+mudra yojana,finance,loan,"non-corporate small business sector, shgs, vendors, traders",18,65,20000,"artisan,small_trader",loans up to ₹10 lakh without collateral,all india
+ddu-gky,rural development,skill_training,rural youth aged 15-35 years from bpl families,15,35,10000,all,free skill training with placement and stipend,all india
+nrlm (aajeevika),rural development,self_help,poor rural households willing to form shgs,18,60,15000,all,"women shg formation, credit access, livelihood support",all india
+pm svanidhi,housing & urban affairs,loan,street vendors in urban areas with valid vendor certificate,18,60,20000,small_trader,"collateral-free loan up to ₹50,000",urban india
+atal pension yojana,finance,pension,citizens aged 18-40 years enrolled in nps,18,40,50000,all,guaranteed minimum pension of ₹3000-₹5000,all india
+sukanya samriddhi yojana,finance,savings,parents of girl child below 10 years,0,10,50000,all,high interest rate with tax benefits for girl child education,all india
+kisan credit card,agriculture & farmers welfare,loan,farmers with cultivable land,18,75,20000,farmer,credit up to ₹3 lakh at 4% interest rate,all india
+pm fasal bima yojana,agriculture & farmers welfare,insurance,farmers growing notified crops,18,70,50000,farmer,crop insurance at 2% premium rate,all india
+janani suraksha yojana,health & family welfare,health,pregnant women from bpl families,18,45,10000,all,cash assistance for institutional delivery,all india
+pm matru vandana yojana,women & child development,maternal,pregnant and lactating mothers aged 19 and above,19,45,15000,all,₹5000 cash benefit in three installments,all india
+pm ujjwala yojana,petroleum & natural gas,women_empowerment,women from bpl households without lpg connection,18,60,10000,all,free lpg connection with first refill,all india
+deen dayal gram jyoti yojana,power,infrastructure,rural households without electricity,18,100,15000,all,free electricity connection to rural households,all india
+pm gram sadak yojana,rural development,infrastructure,habitations with population above 250,18,100,50000,all,all-weather road connectivity to villages,all india
+national scholarship portal,education,education,students from bpl families with good academic record,15,30,15000,all,scholarships from ₹12000 to ₹75000 per year,all india
+stand up india,finance,loan,sc/st and women entrepreneurs for greenfield enterprises,18,55,20000,"artisan,small_trader",bank loans from ₹10 lakh to ₹1 crore,all india
+pradhan mantri rojgar protsahan yojana,finance,employment,epfo registered employers with new employees,18,60,20000,all,government pays employer epf contribution,all india
+pm vishwakarma,msme,skill_training,traditional artisans and craftspeople,18,60,25000,artisan,"skill training, modern tools, and ₹15000 seed capital",all india
+kisan samman sammelan,agriculture & farmers welfare,farmer,progressive farmers with innovative practices,18,65,30000,farmer,recognition and support for best farming practices,all india
+rajiv gandhi kisan nyay yojana,chhattisgarh government,farmer,small and marginal farmers in chhattisgarh,18,65,15000,farmer,₹10000 per acre incentive for kharif crops,chhattisgarh
+saur.solarpump yojana,madhya pradesh,farmer,farmers in madhya pradesh with own land,18,60,20000,farmer,75% subsidy on solar pumps for irrigation,madhya pradesh
+kala ambri yojana,gujarat government,farmer,fruit growers in gujarat,18,65,25000,farmer,assistance for fruit orchard development,gujarat
+jalyukt shiksha abhiyan,maharashtra,infrastructure,schools in water-scarce regions of maharashtra,18,60,20000,all,rainwater harvesting and water conservation in schools,maharashtra
+berojgari bhatta,haryana,education,unemployed graduates in haryana,18,35,15000,all,monthly unemployment allowance of ₹3000-6000,haryana
+kanyashree prakalpa,west bengal,women_empowerment,girl students from poor families in west bengal,13,18,10000,all,annual scholarship of ₹25000 for education,west bengal
+mukhyamantri yuva yojana,karnataka,employment,unemployed youth in karnataka aged 18-35,18,35,20000,all,unemployment allowance of ₹1500-3000 per month,karnataka
+swasthya sarkar,odisha,health,bpl families in odisha,0,100,10000,all,free health coverage up to ₹5 lakh,odisha
+kalia yojana,odisha,farmer,small and marginal farmers in odisha,18,70,15000,farmer,₹10000 per year for cultivation support,odisha
+rythu bharosa,andhra pradesh,farmer,farmers in andhra pradesh with land ownership,18,75,20000,farmer,₹13500 per year investment support,andhra pradesh
+jagananna gorum deyi,andhra pradesh,farmer,tenant farmers in andhra pradesh,18,60,15000,farmer,land ownership rights and cultivation support,andhra pradesh
+uttarakhand glacier yojana,uttarakhand,farmer,hill farmers in uttarakhand,18,65,15000,farmer,support for organic farming in hills,uttarakhand
+himachal pradesh krishi yojana,himachal pradesh,farmer,cultivators in himachal pradesh,18,70,20000,farmer,"subsidy on seeds, fertilizers, and equipment",himachal pradesh
+kashmir employment yojana,jammu & kashmir,employment,unemployed youth in j&k,18,40,20000,all,skill development and job placement,jammu & kashmir
+punjab di大学生 yojana,punjab,education,college students from farming families,17,25,15000,farmer,free education support for farmer's children,punjab
+kisan rin yojana,rajasthan,farmer,loan defaulting farmers in rajasthan,18,65,15000,farmer,interest waiver and fresh credit support,rajasthan
+bihar rajya fasal sahayata yojana,bihar,farmer,farmers in bihar affected by crop loss,18,70,12000,farmer,crop loss compensation up to ₹10000,bihar
+jeevika,bihar,self_help,rural women in bihar from bpl households,18,60,10000,all,shg formation and livelihood training,bihar
+up free laptop yojana,uttar pradesh,education,meritorious students passing class 12 in up,15,25,20000,all,free laptop for higher education students,uttar pradesh
+up rera yojana,uttar pradesh,housing,rural households without proper housing in up,18,65,10000,all,affordable housing with government subsidy,uttar pradesh
+maharashtra shakti yojana,maharashtra,women_empowerment,women victims of violence in maharashtra,18,60,15000,all,free legal aid and shelter support,maharashtra
+telangana rythu nestham,telangana,farmer,telangana farmers with land records,18,75,20000,farmer,direct benefit transfer of ₹5000 per year,telangana
+karnataka raitha belaku,karnataka,farmer,farmers in karnataka,18,70,20000,farmer,subsidy on agricultural inputs and machinery,karnataka
+karnataka gruha lakshmi,karnataka,women_empowerment,women heads of households in karnataka,18,60,10000,all,monthly financial assistance of ₹2000,karnataka
+maharashtra sbta,maharashtra,skill_training,unemployed youth in maharashtra,18,40,20000,all,sector-specific skill training with placement,maharashtra

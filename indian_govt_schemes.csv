@@ -1,0 +1,601 @@
+state,district,age,monthly_income,occupation,family_size,land_acres,eligible_pmkisan,eligible_mgnrega,eligible_mudra,eligible_awas,eligible_any
+up,lucknow,26,25000,daily_wage_laborer,2,0.0,0,0,0,0,0
+up,prayagraj,57,18066,artisan,3,0.0,0,0,1,0,1
+up,varanasi,35,4596,daily_wage_laborer,5,0.0,0,1,0,1,1
+up,lucknow,29,12411,artisan,8,0.0,0,1,1,0,1
+up,prayagraj,47,10781,small_trader,8,0.0,0,1,1,0,1
+up,varanasi,39,9205,artisan,2,0.0,0,1,1,1,1
+up,varanasi,20,18843,agricultural_laborer,6,0.0,0,0,0,0,0
+up,prayagraj,53,12288,farmer,8,4.22,0,1,0,0,1
+up,lucknow,42,10423,farmer,7,2.49,0,1,0,0,1
+up,varanasi,27,14854,farmer,2,0.01,0,1,0,0,1
+up,prayagraj,39,21745,agricultural_laborer,5,0.0,0,0,0,0,0
+up,lucknow,48,25000,daily_wage_laborer,6,0.0,0,0,0,0,0
+up,varanasi,39,7577,farmer,8,0.09,1,1,0,1,1
+up,varanasi,27,10706,farmer,7,3.48,0,1,0,0,1
+up,lucknow,60,19485,farmer,7,0.61,0,0,0,0,0
+up,prayagraj,27,10170,farmer,2,1.15,0,1,0,0,1
+up,prayagraj,23,16029,agricultural_laborer,8,0.0,0,0,0,0,0
+up,lucknow,32,18690,farmer,8,0.47,0,0,0,0,0
+up,prayagraj,61,17813,artisan,7,0.0,0,0,1,0,1
+up,lucknow,56,17289,agricultural_laborer,2,0.0,0,0,0,0,0
+up,lucknow,22,16294,artisan,5,0.0,0,0,1,0,1
+up,varanasi,18,17118,farmer,3,3.66,0,0,0,0,0
+up,varanasi,51,25000,farmer,5,2.06,0,0,0,0,0
+up,varanasi,36,18396,farmer,2,2.88,0,0,0,0,0
+up,lucknow,62,21129,agricultural_laborer,8,0.0,0,0,0,0,0
+up,lucknow,20,9963,small_trader,3,0.0,0,1,1,1,1
+up,lucknow,19,25000,artisan,7,0.0,0,0,0,0,0
+up,lucknow,63,12861,small_trader,3,0.0,0,1,1,0,1
+up,prayagraj,60,13622,daily_wage_laborer,3,0.0,0,1,0,0,1
+up,prayagraj,34,18110,small_trader,8,0.0,0,0,1,0,1
+up,prayagraj,53,15753,small_trader,7,0.0,0,0,1,0,1
+up,varanasi,53,25000,agricultural_laborer,8,0.0,0,0,0,0,0
+up,lucknow,55,16590,agricultural_laborer,5,0.0,0,0,0,0,0
+up,lucknow,32,25000,daily_wage_laborer,7,0.0,0,0,0,0,0
+up,varanasi,57,11418,artisan,8,0.0,0,1,1,0,1
+up,prayagraj,54,20431,daily_wage_laborer,2,0.0,0,0,0,0,0
+up,varanasi,23,15503,farmer,4,0.36,0,0,0,0,0
+up,lucknow,30,9862,small_trader,2,0.0,0,1,1,1,1
+up,varanasi,23,1837,farmer,6,1.0,1,1,0,1,1
+up,prayagraj,54,22070,farmer,4,2.31,0,0,0,0,0
+up,varanasi,28,7506,small_trader,5,0.0,0,1,1,1,1
+up,lucknow,32,25000,daily_wage_laborer,4,0.0,0,0,0,0,0
+up,prayagraj,44,19026,farmer,5,2.65,0,0,0,0,0
+up,lucknow,37,12584,agricultural_laborer,6,0.0,0,1,0,0,1
+up,lucknow,24,14678,artisan,5,0.0,0,1,1,0,1
+up,varanasi,42,17814,agricultural_laborer,3,0.0,0,0,0,0,0
+up,lucknow,24,11913,artisan,7,0.0,0,1,1,0,1
+up,prayagraj,47,21367,farmer,7,2.49,0,0,0,0,0
+up,varanasi,52,12263,farmer,2,1.36,0,1,0,0,1
+up,prayagraj,65,7469,daily_wage_laborer,8,0.0,0,1,0,1,1
+up,prayagraj,51,20617,daily_wage_laborer,5,0.0,0,0,0,0,0
+up,prayagraj,58,17095,daily_wage_laborer,5,0.0,0,0,0,0,0
+up,varanasi,63,21164,daily_wage_laborer,8,0.0,0,0,0,0,0
+up,varanasi,63,9964,artisan,3,0.0,0,1,1,1,1
+up,prayagraj,33,25000,farmer,3,2.04,0,0,0,0,0
+up,prayagraj,65,3316,daily_wage_laborer,3,0.0,0,1,0,1,1
+up,prayagraj,41,8459,artisan,6,0.0,0,1,1,1,1
+up,prayagraj,29,18367,artisan,4,0.0,0,0,1,0,1
+up,lucknow,18,25000,farmer,3,1.15,0,0,0,0,0
+up,prayagraj,65,12422,farmer,7,1.31,0,1,0,0,1
+bihar,muzaffarpur,37,15885,small_trader,5,0.0,0,0,1,0,1
+bihar,muzaffarpur,31,18829,farmer,7,4.78,0,0,0,0,0
+bihar,patna,53,22740,farmer,4,2.33,0,0,0,0,0
+bihar,patna,44,25000,artisan,2,0.0,0,0,0,0,0
+bihar,muzaffarpur,34,12330,daily_wage_laborer,4,0.0,0,1,0,0,1
+bihar,gaya,32,16230,farmer,5,0.26,0,0,0,0,0
+bihar,gaya,19,8139,agricultural_laborer,6,0.0,0,1,0,1,1
+bihar,patna,60,3017,farmer,8,2.11,1,1,0,1,1
+bihar,gaya,18,13835,farmer,2,0.33,0,1,0,0,1
+bihar,patna,54,11792,small_trader,7,0.0,0,1,1,0,1
+bihar,patna,38,25000,farmer,6,3.39,0,0,0,0,0
+bihar,gaya,24,7514,farmer,3,4.09,1,1,0,1,1
+bihar,patna,23,11552,daily_wage_laborer,3,0.0,0,1,0,0,1
+bihar,muzaffarpur,33,24176,agricultural_laborer,2,0.0,0,0,0,0,0
+bihar,gaya,36,22762,daily_wage_laborer,2,0.0,0,0,0,0,0
+bihar,gaya,39,10003,artisan,6,0.0,0,1,1,0,1
+bihar,gaya,49,25000,agricultural_laborer,6,0.0,0,0,0,0,0
+bihar,patna,43,18185,farmer,6,0.35,0,0,0,0,0
+bihar,patna,61,7421,small_trader,6,0.0,0,1,1,1,1
+bihar,muzaffarpur,62,17611,artisan,3,0.0,0,0,1,0,1
+bihar,gaya,59,20077,daily_wage_laborer,2,0.0,0,0,0,0,0
+bihar,gaya,32,8388,farmer,4,0.08,1,1,0,1,1
+bihar,gaya,57,6404,daily_wage_laborer,6,0.0,0,1,0,1,1
+bihar,patna,49,7014,agricultural_laborer,2,0.0,0,1,0,1,1
+bihar,patna,47,19749,agricultural_laborer,7,0.0,0,0,0,0,0
+bihar,gaya,39,13993,agricultural_laborer,7,0.0,0,1,0,0,1
+bihar,muzaffarpur,36,2858,daily_wage_laborer,2,0.0,0,1,0,1,1
+bihar,patna,37,9033,farmer,2,0.81,1,1,0,1,1
+bihar,patna,55,5361,farmer,4,4.49,1,1,0,1,1
+bihar,gaya,56,4284,artisan,6,0.0,0,1,1,1,1
+bihar,gaya,54,17293,agricultural_laborer,7,0.0,0,0,0,0,0
+bihar,patna,62,13850,farmer,5,1.01,0,1,0,0,1
+bihar,muzaffarpur,41,14656,farmer,6,2.16,0,1,0,0,1
+bihar,gaya,28,11699,small_trader,4,0.0,0,1,1,0,1
+bihar,patna,51,14172,daily_wage_laborer,5,0.0,0,1,0,0,1
+bihar,muzaffarpur,58,15807,artisan,6,0.0,0,0,1,0,1
+bihar,muzaffarpur,63,6362,farmer,6,2.2,1,1,0,1,1
+bihar,gaya,55,14103,farmer,5,3.82,0,1,0,0,1
+bihar,gaya,50,25000,daily_wage_laborer,8,0.0,0,0,0,0,0
+bihar,gaya,30,6122,daily_wage_laborer,6,0.0,0,1,0,1,1
+bihar,gaya,44,8212,agricultural_laborer,3,0.0,0,1,0,1,1
+bihar,gaya,31,12606,agricultural_laborer,2,0.0,0,1,0,0,1
+bihar,muzaffarpur,34,17960,agricultural_laborer,2,0.0,0,0,0,0,0
+bihar,muzaffarpur,30,20591,agricultural_laborer,2,0.0,0,0,0,0,0
+bihar,patna,19,6494,farmer,5,1.74,1,1,0,1,1
+bihar,gaya,19,12954,artisan,4,0.0,0,1,1,0,1
+bihar,patna,58,11927,small_trader,7,0.0,0,1,1,0,1
+bihar,gaya,60,20360,agricultural_laborer,3,0.0,0,0,0,0,0
+bihar,patna,47,4696,farmer,8,4.26,1,1,0,1,1
+bihar,gaya,20,14953,farmer,7,4.37,0,1,0,0,1
+bihar,gaya,65,19163,agricultural_laborer,8,0.0,0,0,0,0,0
+bihar,muzaffarpur,63,22738,farmer,7,3.5,0,0,0,0,0
+bihar,patna,58,9918,agricultural_laborer,7,0.0,0,1,0,1,1
+bihar,gaya,21,9670,farmer,2,2.64,1,1,0,1,1
+bihar,muzaffarpur,58,14157,agricultural_laborer,8,0.0,0,1,0,0,1
+bihar,gaya,56,11659,daily_wage_laborer,3,0.0,0,1,0,0,1
+bihar,gaya,41,16661,artisan,4,0.0,0,0,1,0,1
+bihar,patna,29,7931,agricultural_laborer,8,0.0,0,1,0,1,1
+bihar,muzaffarpur,43,11530,farmer,5,0.06,0,1,0,0,1
+bihar,muzaffarpur,18,5965,artisan,6,0.0,0,1,1,1,1
+mp,jabalpur,36,4803,daily_wage_laborer,7,0.0,0,1,0,1,1
+mp,indore,30,16045,daily_wage_laborer,6,0.0,0,0,0,0,0
+mp,indore,58,11587,agricultural_laborer,6,0.0,0,1,0,0,1
+mp,indore,53,14902,agricultural_laborer,6,0.0,0,1,0,0,1
+mp,bhopal,25,14524,farmer,5,0.63,0,1,0,0,1
+mp,jabalpur,44,8357,farmer,4,4.95,1,1,0,1,1
+mp,bhopal,38,9748,farmer,3,3.14,1,1,0,1,1
+mp,indore,39,15968,agricultural_laborer,2,0.0,0,0,0,0,0
+mp,bhopal,44,14213,daily_wage_laborer,2,0.0,0,1,0,0,1
+mp,jabalpur,18,19718,agricultural_laborer,8,0.0,0,0,0,0,0
+mp,bhopal,60,5178,farmer,4,3.24,1,1,0,1,1
+mp,indore,36,12593,farmer,3,3.95,0,1,0,0,1
+mp,indore,33,20783,farmer,6,2.89,0,0,0,0,0
+mp,jabalpur,50,11482,farmer,5,1.44,0,1,0,0,1
+mp,indore,20,13104,agricultural_laborer,7,0.0,0,1,0,0,1
+mp,bhopal,29,17372,small_trader,3,0.0,0,0,1,0,1
+mp,jabalpur,26,23254,farmer,2,1.98,0,0,0,0,0
+mp,indore,51,25000,daily_wage_laborer,6,0.0,0,0,0,0,0
+mp,bhopal,58,13626,farmer,2,3.09,0,1,0,0,1
+mp,bhopal,33,18174,artisan,2,0.0,0,0,1,0,1
+mp,bhopal,21,9464,farmer,7,4.95,1,1,0,1,1
+mp,indore,54,11811,artisan,8,0.0,0,1,1,0,1
+mp,indore,33,7931,artisan,8,0.0,0,1,1,1,1
+mp,jabalpur,49,10961,farmer,2,2.74,0,1,0,0,1
+mp,jabalpur,55,9886,agricultural_laborer,3,0.0,0,1,0,1,1
+mp,jabalpur,46,8440,artisan,3,0.0,0,1,1,1,1
+mp,jabalpur,54,14171,farmer,5,2.5,0,1,0,0,1
+mp,jabalpur,20,20947,agricultural_laborer,7,0.0,0,0,0,0,0
+mp,jabalpur,37,9279,agricultural_laborer,5,0.0,0,1,0,1,1
+mp,indore,63,6276,farmer,7,2.03,1,1,0,1,1
+mp,bhopal,49,17097,farmer,8,3.54,0,0,0,0,0
+mp,bhopal,36,18313,farmer,8,3.55,0,0,0,0,0
+mp,jabalpur,58,11361,agricultural_laborer,3,0.0,0,1,0,0,1
+mp,indore,48,15732,farmer,2,4.74,0,0,0,0,0
+mp,indore,20,12148,daily_wage_laborer,8,0.0,0,1,0,0,1
+mp,jabalpur,35,25000,farmer,3,1.69,0,0,0,0,0
+mp,jabalpur,58,15456,agricultural_laborer,3,0.0,0,0,0,0,0
+mp,indore,47,22159,farmer,2,1.87,0,0,0,0,0
+mp,bhopal,64,16001,farmer,4,1.57,0,0,0,0,0
+mp,jabalpur,43,24921,agricultural_laborer,6,0.0,0,0,0,0,0
+mp,bhopal,40,13810,farmer,4,1.43,0,1,0,0,1
+mp,jabalpur,26,25000,daily_wage_laborer,6,0.0,0,0,0,0,0
+mp,jabalpur,29,6077,daily_wage_laborer,2,0.0,0,1,0,1,1
+mp,bhopal,27,9987,small_trader,5,0.0,0,1,1,1,1
+mp,bhopal,18,16963,farmer,5,1.31,0,0,0,0,0
+mp,bhopal,45,8498,daily_wage_laborer,3,0.0,0,1,0,1,1
+mp,bhopal,38,9043,farmer,3,1.04,1,1,0,1,1
+mp,bhopal,46,10169,artisan,3,0.0,0,1,1,0,1
+mp,jabalpur,29,15918,artisan,8,0.0,0,0,1,0,1
+mp,bhopal,52,19381,small_trader,5,0.0,0,0,1,0,1
+mp,indore,60,17057,agricultural_laborer,3,0.0,0,0,0,0,0
+mp,indore,25,6618,artisan,2,0.0,0,1,1,1,1
+mp,jabalpur,59,15792,agricultural_laborer,2,0.0,0,0,0,0,0
+mp,bhopal,20,16673,artisan,6,0.0,0,0,1,0,1
+mp,bhopal,21,25000,small_trader,2,0.0,0,0,0,0,0
+mp,jabalpur,49,6103,artisan,7,0.0,0,1,1,1,1
+mp,jabalpur,40,24626,daily_wage_laborer,3,0.0,0,0,0,0,0
+mp,bhopal,59,21653,agricultural_laborer,6,0.0,0,0,0,0,0
+mp,bhopal,35,24365,agricultural_laborer,6,0.0,0,0,0,0,0
+mp,bhopal,39,4753,daily_wage_laborer,2,0.0,0,1,0,1,1
+rajasthan,udaipur,37,25000,artisan,3,0.0,0,0,0,0,0
+rajasthan,jaipur,50,8463,small_trader,6,0.0,0,1,1,1,1
+rajasthan,jaipur,36,22528,daily_wage_laborer,2,0.0,0,0,0,0,0
+rajasthan,jaipur,41,8310,daily_wage_laborer,2,0.0,0,1,0,1,1
+rajasthan,udaipur,28,25000,small_trader,5,0.0,0,0,0,0,0
+rajasthan,udaipur,53,7460,farmer,7,1.55,1,1,0,1,1
+rajasthan,udaipur,59,24785,farmer,2,1.66,0,0,0,0,0
+rajasthan,jaipur,27,12106,daily_wage_laborer,5,0.0,0,1,0,0,1
+rajasthan,jodhpur,39,17070,small_trader,8,0.0,0,0,1,0,1
+rajasthan,udaipur,62,25000,farmer,4,1.86,0,0,0,0,0
+rajasthan,jaipur,25,23238,agricultural_laborer,3,0.0,0,0,0,0,0
+rajasthan,udaipur,53,25000,small_trader,6,0.0,0,0,0,0,0
+rajasthan,jaipur,26,9171,daily_wage_laborer,6,0.0,0,1,0,1,1
+rajasthan,udaipur,53,4031,farmer,6,4.6,1,1,0,1,1
+rajasthan,udaipur,63,18412,farmer,2,0.01,0,0,0,0,0
+rajasthan,jodhpur,44,11989,agricultural_laborer,7,0.0,0,1,0,0,1
+rajasthan,jaipur,64,16451,farmer,7,3.72,0,0,0,0,0
+rajasthan,udaipur,26,8614,farmer,7,4.18,1,1,0,1,1
+rajasthan,udaipur,38,7059,farmer,6,0.98,1,1,0,1,1
+rajasthan,jaipur,29,22508,agricultural_laborer,2,0.0,0,0,0,0,0
+rajasthan,jodhpur,38,22902,small_trader,8,0.0,0,0,0,0,0
+rajasthan,udaipur,59,25000,farmer,6,3.38,0,0,0,0,0
+rajasthan,jaipur,26,7921,daily_wage_laborer,5,0.0,0,1,0,1,1
+rajasthan,udaipur,53,25000,artisan,4,0.0,0,0,0,0,0
+rajasthan,jodhpur,47,18030,farmer,2,2.37,0,0,0,0,0
+rajasthan,jaipur,63,5121,artisan,6,0.0,0,1,1,1,1
+rajasthan,jodhpur,27,14108,daily_wage_laborer,8,0.0,0,1,0,0,1
+rajasthan,jodhpur,45,14974,farmer,3,3.3,0,1,0,0,1
+rajasthan,jaipur,59,9172,artisan,8,0.0,0,1,1,1,1
+rajasthan,udaipur,32,8210,artisan,3,0.0,0,1,1,1,1
+rajasthan,jaipur,39,11904,farmer,5,0.88,0,1,0,0,1
+rajasthan,udaipur,22,25000,farmer,4,3.49,0,0,0,0,0
+rajasthan,jaipur,49,12197,farmer,6,4.8,0,1,0,0,1
+rajasthan,jaipur,35,14657,farmer,2,2.05,0,1,0,0,1
+rajasthan,jaipur,65,18836,agricultural_laborer,3,0.0,0,0,0,0,0
+rajasthan,jaipur,40,25000,farmer,2,2.07,0,0,0,0,0
+rajasthan,jodhpur,38,17744,daily_wage_laborer,8,0.0,0,0,0,0,0
+rajasthan,jodhpur,51,7287,farmer,3,2.98,1,1,0,1,1
+rajasthan,udaipur,46,11650,farmer,5,4.77,0,1,0,0,1
+rajasthan,udaipur,64,16540,farmer,3,2.89,0,0,0,0,0
+rajasthan,jodhpur,44,25000,farmer,8,1.6,0,0,0,0,0
+rajasthan,jaipur,38,13726,daily_wage_laborer,2,0.0,0,1,0,0,1
+rajasthan,udaipur,40,19902,farmer,5,0.4,0,0,0,0,0
+rajasthan,udaipur,55,20843,farmer,3,3.22,0,0,0,0,0
+rajasthan,jaipur,47,6215,daily_wage_laborer,6,0.0,0,1,0,1,1
+rajasthan,udaipur,41,17642,small_trader,6,0.0,0,0,1,0,1
+rajasthan,jodhpur,46,24299,artisan,6,0.0,0,0,0,0,0
+rajasthan,jaipur,62,18390,daily_wage_laborer,4,0.0,0,0,0,0,0
+rajasthan,jodhpur,62,6750,farmer,6,1.56,1,1,0,1,1
+rajasthan,udaipur,22,17106,artisan,7,0.0,0,0,1,0,1
+rajasthan,udaipur,33,8011,farmer,7,4.91,1,1,0,1,1
+rajasthan,jaipur,35,25000,artisan,7,0.0,0,0,0,0,0
+rajasthan,jaipur,27,6572,agricultural_laborer,2,0.0,0,1,0,1,1
+rajasthan,udaipur,27,25000,agricultural_laborer,5,0.0,0,0,0,0,0
+rajasthan,jaipur,39,4479,daily_wage_laborer,3,0.0,0,1,0,1,1
+rajasthan,jodhpur,29,11666,artisan,3,0.0,0,1,1,0,1
+rajasthan,jaipur,58,25000,agricultural_laborer,3,0.0,0,0,0,0,0
+rajasthan,jaipur,50,23198,agricultural_laborer,5,0.0,0,0,0,0,0
+rajasthan,udaipur,62,25000,farmer,6,0.28,0,0,0,0,0
+rajasthan,jaipur,63,25000,farmer,7,0.37,0,0,0,0,0
+odisha,bhubaneswar,24,7303,small_trader,6,0.0,0,1,1,1,1
+odisha,bhubaneswar,45,12960,daily_wage_laborer,8,0.0,0,1,0,0,1
+odisha,rourkela,54,5748,artisan,8,0.0,0,1,1,1,1
+odisha,bhubaneswar,37,16183,agricultural_laborer,8,0.0,0,0,0,0,0
+odisha,rourkela,49,12288,daily_wage_laborer,4,0.0,0,1,0,0,1
+odisha,cuttack,61,16293,agricultural_laborer,7,0.0,0,0,0,0,0
+odisha,cuttack,19,22463,agricultural_laborer,2,0.0,0,0,0,0,0
+odisha,rourkela,50,15644,artisan,2,0.0,0,0,1,0,1
+odisha,rourkela,27,13476,farmer,5,4.17,0,1,0,0,1
+odisha,cuttack,33,18210,farmer,7,4.71,0,0,0,0,0
+odisha,bhubaneswar,46,12755,farmer,3,0.02,0,1,0,0,1
+odisha,cuttack,53,10598,agricultural_laborer,2,0.0,0,1,0,0,1
+odisha,cuttack,50,4806,daily_wage_laborer,5,0.0,0,1,0,1,1
+odisha,cuttack,44,15904,daily_wage_laborer,7,0.0,0,0,0,0,0
+odisha,bhubaneswar,31,2146,artisan,4,0.0,0,1,1,1,1
+odisha,cuttack,31,25000,artisan,6,0.0,0,0,0,0,0
+odisha,cuttack,52,8485,farmer,4,1.46,1,1,0,1,1
+odisha,cuttack,45,15654,daily_wage_laborer,3,0.0,0,0,0,0,0
+odisha,rourkela,60,17117,farmer,3,0.6,0,0,0,0,0
+odisha,bhubaneswar,50,7457,farmer,6,0.24,1,1,0,1,1
+odisha,rourkela,60,18539,farmer,3,1.07,0,0,0,0,0
+odisha,cuttack,43,2722,artisan,6,0.0,0,1,1,1,1
+odisha,bhubaneswar,57,24728,daily_wage_laborer,5,0.0,0,0,0,0,0
+odisha,rourkela,18,24777,daily_wage_laborer,8,0.0,0,0,0,0,0
+odisha,bhubaneswar,33,9998,artisan,2,0.0,0,1,1,1,1
+odisha,bhubaneswar,32,17062,farmer,3,4.16,0,0,0,0,0
+odisha,bhubaneswar,37,8593,agricultural_laborer,2,0.0,0,1,0,1,1
+odisha,cuttack,54,13335,daily_wage_laborer,4,0.0,0,1,0,0,1
+odisha,rourkela,29,25000,small_trader,2,0.0,0,0,0,0,0
+odisha,cuttack,28,12047,artisan,7,0.0,0,1,1,0,1
+odisha,bhubaneswar,64,15485,artisan,3,0.0,0,0,1,0,1
+odisha,bhubaneswar,44,19849,artisan,6,0.0,0,0,1,0,1
+odisha,rourkela,58,16118,daily_wage_laborer,2,0.0,0,0,0,0,0
+odisha,cuttack,49,7350,farmer,7,2.36,1,1,0,1,1
+odisha,bhubaneswar,48,14854,farmer,2,2.65,0,1,0,0,1
+odisha,bhubaneswar,30,13025,small_trader,5,0.0,0,1,1,0,1
+odisha,cuttack,54,23720,farmer,6,4.02,0,0,0,0,0
+odisha,bhubaneswar,42,9834,daily_wage_laborer,4,0.0,0,1,0,1,1
+odisha,bhubaneswar,32,12623,farmer,2,2.69,0,1,0,0,1
+odisha,bhubaneswar,19,5089,daily_wage_laborer,6,0.0,0,1,0,1,1
+odisha,cuttack,19,13589,farmer,7,4.62,0,1,0,0,1
+odisha,cuttack,62,11211,farmer,3,1.48,0,1,0,0,1
+odisha,rourkela,55,18122,small_trader,2,0.0,0,0,1,0,1
+odisha,cuttack,62,12898,farmer,5,2.67,0,1,0,0,1
+odisha,cuttack,49,20853,agricultural_laborer,8,0.0,0,0,0,0,0
+odisha,bhubaneswar,22,8336,artisan,8,0.0,0,1,1,1,1
+odisha,bhubaneswar,62,13147,farmer,2,2.51,0,1,0,0,1
+odisha,rourkela,41,15216,farmer,4,1.71,0,0,0,0,0
+odisha,rourkela,27,25000,agricultural_laborer,8,0.0,0,0,0,0,0
+odisha,bhubaneswar,41,17171,artisan,3,0.0,0,0,1,0,1
+odisha,rourkela,60,3285,farmer,5,3.98,1,1,0,1,1
+odisha,rourkela,64,4372,small_trader,6,0.0,0,1,1,1,1
+odisha,cuttack,65,22316,agricultural_laborer,4,0.0,0,0,0,0,0
+odisha,bhubaneswar,24,24833,farmer,6,3.15,0,0,0,0,0
+odisha,rourkela,22,23448,artisan,7,0.0,0,0,0,0,0
+odisha,rourkela,54,7848,small_trader,3,0.0,0,1,1,1,1
+odisha,rourkela,41,22709,agricultural_laborer,5,0.0,0,0,0,0,0
+odisha,rourkela,53,14554,farmer,7,3.85,0,1,0,0,1
+odisha,cuttack,53,3967,daily_wage_laborer,2,0.0,0,1,0,1,1
+odisha,rourkela,37,14589,daily_wage_laborer,3,0.0,0,1,0,0,1
+jharkhand,jamshedpur,38,18171,artisan,7,0.0,0,0,1,0,1
+jharkhand,jamshedpur,43,12202,daily_wage_laborer,8,0.0,0,1,0,0,1
+jharkhand,ranchi,20,13332,small_trader,6,0.0,0,1,1,0,1
+jharkhand,jamshedpur,21,25000,agricultural_laborer,5,0.0,0,0,0,0,0
+jharkhand,ranchi,46,8505,artisan,5,0.0,0,1,1,1,1
+jharkhand,jamshedpur,37,5321,farmer,7,3.1,1,1,0,1,1
+jharkhand,jamshedpur,51,24657,farmer,5,3.33,0,0,0,0,0
+jharkhand,jamshedpur,63,25000,agricultural_laborer,4,0.0,0,0,0,0,0
+jharkhand,jamshedpur,47,7532,farmer,5,0.37,1,1,0,1,1
+jharkhand,dhanbad,43,12586,artisan,5,0.0,0,1,1,0,1
+jharkhand,jamshedpur,40,7962,small_trader,7,0.0,0,1,1,1,1
+jharkhand,ranchi,24,23433,farmer,7,1.79,0,0,0,0,0
+jharkhand,ranchi,20,10353,artisan,6,0.0,0,1,1,0,1
+jharkhand,dhanbad,40,9617,small_trader,5,0.0,0,1,1,1,1
+jharkhand,ranchi,48,8609,artisan,7,0.0,0,1,1,1,1
+jharkhand,ranchi,49,22563,farmer,4,3.2,0,0,0,0,0
+jharkhand,jamshedpur,35,6331,agricultural_laborer,2,0.0,0,1,0,1,1
+jharkhand,jamshedpur,64,24308,agricultural_laborer,2,0.0,0,0,0,0,0
+jharkhand,jamshedpur,59,22550,agricultural_laborer,6,0.0,0,0,0,0,0
+jharkhand,dhanbad,53,3381,farmer,7,1.57,1,1,0,1,1
+jharkhand,jamshedpur,35,13347,farmer,6,2.61,0,1,0,0,1
+jharkhand,jamshedpur,54,6174,agricultural_laborer,2,0.0,0,1,0,1,1
+jharkhand,dhanbad,23,22124,artisan,8,0.0,0,0,0,0,0
+jharkhand,dhanbad,50,8505,farmer,8,0.93,1,1,0,1,1
+jharkhand,jamshedpur,43,16624,agricultural_laborer,8,0.0,0,0,0,0,0
+jharkhand,jamshedpur,54,24785,farmer,4,4.55,0,0,0,0,0
+jharkhand,dhanbad,49,15394,artisan,4,0.0,0,0,1,0,1
+jharkhand,dhanbad,57,9065,farmer,4,1.38,1,1,0,1,1
+jharkhand,jamshedpur,44,5087,daily_wage_laborer,2,0.0,0,1,0,1,1
+jharkhand,dhanbad,47,8986,artisan,6,0.0,0,1,1,1,1
+jharkhand,jamshedpur,47,13527,farmer,4,2.24,0,1,0,0,1
+jharkhand,jamshedpur,35,7523,small_trader,5,0.0,0,1,1,1,1
+jharkhand,ranchi,39,11826,agricultural_laborer,2,0.0,0,1,0,0,1
+jharkhand,jamshedpur,58,25000,farmer,5,1.37,0,0,0,0,0
+jharkhand,jamshedpur,52,13184,farmer,4,1.82,0,1,0,0,1
+jharkhand,jamshedpur,20,8493,farmer,2,3.55,1,1,0,1,1
+jharkhand,dhanbad,30,15152,farmer,4,2.26,0,0,0,0,0
+jharkhand,jamshedpur,43,4650,farmer,6,0.43,1,1,0,1,1
+jharkhand,jamshedpur,38,3658,small_trader,8,0.0,0,1,1,1,1
+jharkhand,jamshedpur,25,6742,agricultural_laborer,2,0.0,0,1,0,1,1
+jharkhand,jamshedpur,55,6264,artisan,6,0.0,0,1,1,1,1
+jharkhand,ranchi,49,11334,farmer,8,3.27,0,1,0,0,1
+jharkhand,ranchi,36,16391,agricultural_laborer,3,0.0,0,0,0,0,0
+jharkhand,dhanbad,49,16595,artisan,3,0.0,0,0,1,0,1
+jharkhand,ranchi,62,13002,agricultural_laborer,8,0.0,0,1,0,0,1
+jharkhand,ranchi,36,14415,farmer,7,0.44,0,1,0,0,1
+jharkhand,ranchi,37,10644,farmer,2,4.2,0,1,0,0,1
+jharkhand,dhanbad,45,25000,artisan,7,0.0,0,0,0,0,0
+jharkhand,dhanbad,32,19337,farmer,3,1.5,0,0,0,0,0
+jharkhand,ranchi,18,25000,farmer,8,1.69,0,0,0,0,0
+jharkhand,dhanbad,56,7364,artisan,6,0.0,0,1,1,1,1
+jharkhand,jamshedpur,65,4097,daily_wage_laborer,3,0.0,0,1,0,1,1
+jharkhand,jamshedpur,29,17749,farmer,5,1.63,0,0,0,0,0
+jharkhand,ranchi,40,9553,agricultural_laborer,6,0.0,0,1,0,1,1
+jharkhand,jamshedpur,32,17861,daily_wage_laborer,3,0.0,0,0,0,0,0
+jharkhand,dhanbad,34,4609,agricultural_laborer,2,0.0,0,1,0,1,1
+jharkhand,dhanbad,44,12860,farmer,2,0.44,0,1,0,0,1
+jharkhand,jamshedpur,62,13846,farmer,8,4.69,0,1,0,0,1
+jharkhand,ranchi,57,7184,agricultural_laborer,3,0.0,0,1,0,1,1
+jharkhand,ranchi,37,12428,agricultural_laborer,2,0.0,0,1,0,0,1
+chhattisgarh,durg,18,21386,farmer,4,4.52,0,0,0,0,0
+chhattisgarh,bilaspur,54,17042,farmer,4,0.64,0,0,0,0,0
+chhattisgarh,raipur,35,13885,farmer,6,0.65,0,1,0,0,1
+chhattisgarh,durg,44,22529,farmer,4,3.6,0,0,0,0,0
+chhattisgarh,durg,48,18072,farmer,3,2.86,0,0,0,0,0
+chhattisgarh,bilaspur,57,10753,farmer,4,1.47,0,1,0,0,1
+chhattisgarh,bilaspur,65,17050,agricultural_laborer,6,0.0,0,0,0,0,0
+chhattisgarh,raipur,20,21966,farmer,4,3.95,0,0,0,0,0
+chhattisgarh,durg,53,4141,farmer,6,1.59,1,1,0,1,1
+chhattisgarh,durg,18,16545,farmer,5,2.31,0,0,0,0,0
+chhattisgarh,raipur,64,6905,farmer,7,3.6,1,1,0,1,1
+chhattisgarh,bilaspur,51,7187,agricultural_laborer,8,0.0,0,1,0,1,1
+chhattisgarh,raipur,42,11142,agricultural_laborer,3,0.0,0,1,0,0,1
+chhattisgarh,bilaspur,28,19270,artisan,7,0.0,0,0,1,0,1
+chhattisgarh,raipur,29,16678,agricultural_laborer,7,0.0,0,0,0,0,0
+chhattisgarh,durg,54,25000,farmer,7,4.6,0,0,0,0,0
+chhattisgarh,bilaspur,57,25000,artisan,6,0.0,0,0,0,0,0
+chhattisgarh,raipur,25,18297,daily_wage_laborer,2,0.0,0,0,0,0,0
+chhattisgarh,durg,26,23048,agricultural_laborer,3,0.0,0,0,0,0,0
+chhattisgarh,bilaspur,56,13320,daily_wage_laborer,6,0.0,0,1,0,0,1
+chhattisgarh,durg,63,9773,agricultural_laborer,4,0.0,0,1,0,1,1
+chhattisgarh,durg,35,12498,small_trader,2,0.0,0,1,1,0,1
+chhattisgarh,raipur,58,15338,agricultural_laborer,8,0.0,0,0,0,0,0
+chhattisgarh,raipur,28,25000,artisan,4,0.0,0,0,0,0,0
+chhattisgarh,durg,58,23550,small_trader,3,0.0,0,0,0,0,0
+chhattisgarh,durg,48,20199,farmer,8,1.79,0,0,0,0,0
+chhattisgarh,raipur,56,15330,artisan,2,0.0,0,0,1,0,1
+chhattisgarh,durg,23,19485,small_trader,8,0.0,0,0,1,0,1
+chhattisgarh,bilaspur,35,5321,agricultural_laborer,8,0.0,0,1,0,1,1
+chhattisgarh,durg,60,8727,agricultural_laborer,5,0.0,0,1,0,1,1
+chhattisgarh,raipur,34,14996,daily_wage_laborer,3,0.0,0,1,0,0,1
+chhattisgarh,durg,62,19055,farmer,5,2.68,0,0,0,0,0
+chhattisgarh,bilaspur,46,19311,artisan,2,0.0,0,0,1,0,1
+chhattisgarh,durg,65,25000,daily_wage_laborer,4,0.0,0,0,0,0,0
+chhattisgarh,durg,46,9161,artisan,8,0.0,0,1,1,1,1
+chhattisgarh,bilaspur,65,9859,small_trader,7,0.0,0,1,1,1,1
+chhattisgarh,raipur,22,7801,farmer,8,0.45,1,1,0,1,1
+chhattisgarh,bilaspur,46,9297,farmer,8,4.64,1,1,0,1,1
+chhattisgarh,raipur,23,12663,artisan,6,0.0,0,1,1,0,1
+chhattisgarh,durg,25,24186,farmer,3,3.59,0,0,0,0,0
+chhattisgarh,durg,20,14055,farmer,2,2.53,0,1,0,0,1
+chhattisgarh,bilaspur,54,9806,daily_wage_laborer,3,0.0,0,1,0,1,1
+chhattisgarh,durg,50,6517,farmer,8,3.11,1,1,0,1,1
+chhattisgarh,bilaspur,29,25000,farmer,2,3.4,0,0,0,0,0
+chhattisgarh,raipur,53,19401,artisan,3,0.0,0,0,1,0,1
+chhattisgarh,durg,25,17418,agricultural_laborer,3,0.0,0,0,0,0,0
+chhattisgarh,bilaspur,34,25000,farmer,8,0.19,0,0,0,0,0
+chhattisgarh,raipur,60,15136,farmer,5,1.55,0,0,0,0,0
+chhattisgarh,bilaspur,32,14468,agricultural_laborer,6,0.0,0,1,0,0,1
+chhattisgarh,bilaspur,49,21211,farmer,5,2.26,0,0,0,0,0
+chhattisgarh,durg,36,16984,farmer,7,4.6,0,0,0,0,0
+chhattisgarh,bilaspur,37,8116,artisan,5,0.0,0,1,1,1,1
+chhattisgarh,durg,23,12609,artisan,8,0.0,0,1,1,0,1
+chhattisgarh,raipur,43,24663,agricultural_laborer,7,0.0,0,0,0,0,0
+chhattisgarh,raipur,55,18217,agricultural_laborer,2,0.0,0,0,0,0,0
+chhattisgarh,raipur,59,13207,daily_wage_laborer,2,0.0,0,1,0,0,1
+chhattisgarh,durg,62,13145,farmer,3,4.17,0,1,0,0,1
+chhattisgarh,raipur,55,13701,farmer,5,1.23,0,1,0,0,1
+chhattisgarh,raipur,56,10640,farmer,3,2.6,0,1,0,0,1
+chhattisgarh,raipur,56,9292,small_trader,4,0.0,0,1,1,1,1
+west bengal,kolkata,35,12179,farmer,7,0.69,0,1,0,0,1
+west bengal,kolkata,50,7243,farmer,2,0.33,1,1,0,1,1
+west bengal,kolkata,52,25000,farmer,6,3.58,0,0,0,0,0
+west bengal,kolkata,56,13170,daily_wage_laborer,3,0.0,0,1,0,0,1
+west bengal,kolkata,38,16903,farmer,6,1.52,0,0,0,0,0
+west bengal,siliguri,31,18260,artisan,2,0.0,0,0,1,0,1
+west bengal,asansol,42,11190,farmer,4,3.17,0,1,0,0,1
+west bengal,siliguri,24,11359,farmer,7,3.94,0,1,0,0,1
+west bengal,siliguri,41,8907,farmer,2,3.08,1,1,0,1,1
+west bengal,kolkata,44,13025,artisan,2,0.0,0,1,1,0,1
+west bengal,asansol,39,3492,small_trader,6,0.0,0,1,1,1,1
+west bengal,siliguri,32,12028,farmer,4,4.19,0,1,0,0,1
+west bengal,siliguri,39,10285,daily_wage_laborer,7,0.0,0,1,0,0,1
+west bengal,siliguri,64,21439,agricultural_laborer,4,0.0,0,0,0,0,0
+west bengal,asansol,56,7058,small_trader,7,0.0,0,1,1,1,1
+west bengal,siliguri,42,22547,agricultural_laborer,4,0.0,0,0,0,0,0
+west bengal,siliguri,60,7678,agricultural_laborer,4,0.0,0,1,0,1,1
+west bengal,kolkata,27,25000,agricultural_laborer,2,0.0,0,0,0,0,0
+west bengal,kolkata,50,20850,daily_wage_laborer,6,0.0,0,0,0,0,0
+west bengal,kolkata,59,11957,daily_wage_laborer,4,0.0,0,1,0,0,1
+west bengal,kolkata,37,16426,agricultural_laborer,5,0.0,0,0,0,0,0
+west bengal,kolkata,51,7234,farmer,2,1.8,1,1,0,1,1
+west bengal,asansol,63,12313,agricultural_laborer,3,0.0,0,1,0,0,1
+west bengal,asansol,31,20889,small_trader,2,0.0,0,0,0,0,0
+west bengal,kolkata,51,21869,small_trader,3,0.0,0,0,0,0,0
+west bengal,siliguri,65,17282,small_trader,7,0.0,0,0,1,0,1
+west bengal,kolkata,63,3403,daily_wage_laborer,7,0.0,0,1,0,1,1
+west bengal,kolkata,62,25000,farmer,6,2.51,0,0,0,0,0
+west bengal,asansol,62,20064,farmer,6,0.96,0,0,0,0,0
+west bengal,kolkata,49,19210,artisan,2,0.0,0,0,1,0,1
+west bengal,siliguri,54,14836,agricultural_laborer,3,0.0,0,1,0,0,1
+west bengal,kolkata,65,17489,artisan,8,0.0,0,0,1,0,1
+west bengal,asansol,37,17724,agricultural_laborer,3,0.0,0,0,0,0,0
+west bengal,siliguri,64,12919,artisan,2,0.0,0,1,1,0,1
+west bengal,asansol,33,13366,artisan,5,0.0,0,1,1,0,1
+west bengal,kolkata,48,19613,artisan,4,0.0,0,0,1,0,1
+west bengal,siliguri,42,21213,artisan,2,0.0,0,0,0,0,0
+west bengal,kolkata,33,10378,agricultural_laborer,6,0.0,0,1,0,0,1
+west bengal,kolkata,21,9997,farmer,4,0.01,1,1,0,1,1
+west bengal,siliguri,23,9662,artisan,8,0.0,0,1,1,1,1
+west bengal,siliguri,40,16380,farmer,4,3.45,0,0,0,0,0
+west bengal,siliguri,59,14965,farmer,7,4.16,0,1,0,0,1
+west bengal,asansol,57,14648,farmer,2,2.75,0,1,0,0,1
+west bengal,asansol,64,24162,farmer,5,1.05,0,0,0,0,0
+west bengal,kolkata,24,12100,daily_wage_laborer,4,0.0,0,1,0,0,1
+west bengal,kolkata,41,21823,artisan,7,0.0,0,0,0,0,0
+west bengal,kolkata,53,8804,agricultural_laborer,3,0.0,0,1,0,1,1
+west bengal,kolkata,41,10680,artisan,5,0.0,0,1,1,0,1
+west bengal,asansol,40,15948,small_trader,6,0.0,0,0,1,0,1
+west bengal,siliguri,54,15812,small_trader,4,0.0,0,0,1,0,1
+west bengal,siliguri,27,16992,small_trader,6,0.0,0,0,1,0,1
+west bengal,kolkata,62,16749,small_trader,8,0.0,0,0,1,0,1
+west bengal,siliguri,18,13852,small_trader,5,0.0,0,1,1,0,1
+west bengal,kolkata,20,21614,farmer,3,3.87,0,0,0,0,0
+west bengal,kolkata,27,6042,daily_wage_laborer,7,0.0,0,1,0,1,1
+west bengal,siliguri,25,6565,agricultural_laborer,8,0.0,0,1,0,1,1
+west bengal,asansol,34,16115,small_trader,6,0.0,0,0,1,0,1
+west bengal,kolkata,57,16579,farmer,4,0.51,0,0,0,0,0
+west bengal,siliguri,38,13826,farmer,4,2.44,0,1,0,0,1
+west bengal,siliguri,43,16590,agricultural_laborer,3,0.0,0,0,0,0,0
+assam,guwahati,41,17083,agricultural_laborer,5,0.0,0,0,0,0,0
+assam,dibrugarh,63,17796,daily_wage_laborer,4,0.0,0,0,0,0,0
+assam,silchar,46,24055,farmer,3,0.6,0,0,0,0,0
+assam,guwahati,48,12567,agricultural_laborer,2,0.0,0,1,0,0,1
+assam,guwahati,51,8071,daily_wage_laborer,5,0.0,0,1,0,1,1
+assam,guwahati,25,6953,agricultural_laborer,6,0.0,0,1,0,1,1
+assam,silchar,49,21115,small_trader,4,0.0,0,0,0,0,0
+assam,guwahati,48,11682,small_trader,2,0.0,0,1,1,0,1
+assam,dibrugarh,64,11144,farmer,2,1.4,0,1,0,0,1
+assam,dibrugarh,55,20771,small_trader,2,0.0,0,0,0,0,0
+assam,guwahati,40,16428,farmer,6,1.43,0,0,0,0,0
+assam,silchar,37,15589,farmer,7,0.34,0,0,0,0,0
+assam,dibrugarh,48,11784,farmer,4,3.55,0,1,0,0,1
+assam,guwahati,27,8815,agricultural_laborer,3,0.0,0,1,0,1,1
+assam,silchar,55,15701,farmer,7,1.79,0,0,0,0,0
+assam,dibrugarh,52,11094,farmer,5,3.03,0,1,0,0,1
+assam,guwahati,20,18112,farmer,8,3.74,0,0,0,0,0
+assam,silchar,38,24466,agricultural_laborer,4,0.0,0,0,0,0,0
+assam,silchar,24,25000,farmer,3,4.47,0,0,0,0,0
+assam,guwahati,52,9468,artisan,6,0.0,0,1,1,1,1
+assam,dibrugarh,26,25000,agricultural_laborer,6,0.0,0,0,0,0,0
+assam,dibrugarh,36,14127,farmer,7,1.43,0,1,0,0,1
+assam,guwahati,32,6878,artisan,3,0.0,0,1,1,1,1
+assam,silchar,52,6769,agricultural_laborer,5,0.0,0,1,0,1,1
+assam,dibrugarh,43,25000,agricultural_laborer,2,0.0,0,0,0,0,0
+assam,dibrugarh,36,25000,small_trader,6,0.0,0,0,0,0,0
+assam,guwahati,34,13222,agricultural_laborer,8,0.0,0,1,0,0,1
+assam,guwahati,47,17165,small_trader,6,0.0,0,0,1,0,1
+assam,dibrugarh,48,5693,farmer,7,2.59,1,1,0,1,1
+assam,silchar,65,15013,agricultural_laborer,3,0.0,0,0,0,0,0
+assam,guwahati,61,11860,farmer,5,4.93,0,1,0,0,1
+assam,silchar,36,6563,farmer,6,4.14,1,1,0,1,1
+assam,dibrugarh,38,3559,farmer,6,0.55,1,1,0,1,1
+assam,silchar,39,25000,daily_wage_laborer,6,0.0,0,0,0,0,0
+assam,guwahati,53,21514,small_trader,7,0.0,0,0,0,0,0
+assam,guwahati,58,25000,daily_wage_laborer,5,0.0,0,0,0,0,0
+assam,silchar,48,20802,farmer,3,0.53,0,0,0,0,0
+assam,dibrugarh,55,19586,agricultural_laborer,5,0.0,0,0,0,0,0
+assam,dibrugarh,60,15145,farmer,6,1.11,0,0,0,0,0
+assam,guwahati,65,19515,small_trader,8,0.0,0,0,1,0,1
+assam,dibrugarh,26,19915,farmer,6,2.16,0,0,0,0,0
+assam,dibrugarh,18,16163,artisan,4,0.0,0,0,1,0,1
+assam,dibrugarh,59,25000,farmer,4,3.35,0,0,0,0,0
+assam,guwahati,26,25000,farmer,6,1.78,0,0,0,0,0
+assam,guwahati,18,13925,agricultural_laborer,2,0.0,0,1,0,0,1
+assam,silchar,63,15639,farmer,2,3.41,0,0,0,0,0
+assam,guwahati,60,10163,agricultural_laborer,2,0.0,0,1,0,0,1
+assam,dibrugarh,37,18271,agricultural_laborer,6,0.0,0,0,0,0,0
+assam,silchar,57,13480,farmer,2,2.07,0,1,0,0,1
+assam,guwahati,64,10771,farmer,7,1.06,0,1,0,0,1
+assam,silchar,57,11732,farmer,3,4.27,0,1,0,0,1
+assam,silchar,56,14360,daily_wage_laborer,6,0.0,0,1,0,0,1
+assam,silchar,64,10492,farmer,8,4.84,0,1,0,0,1
+assam,dibrugarh,51,13382,farmer,2,0.71,0,1,0,0,1
+assam,silchar,30,25000,daily_wage_laborer,8,0.0,0,0,0,0,0
+assam,dibrugarh,52,7792,farmer,7,4.66,1,1,0,1,1
+assam,dibrugarh,57,14194,farmer,2,3.15,0,1,0,0,1
+assam,dibrugarh,64,18726,daily_wage_laborer,8,0.0,0,0,0,0,0
+assam,dibrugarh,44,7006,agricultural_laborer,4,0.0,0,1,0,1,1
+assam,silchar,30,25000,daily_wage_laborer,6,0.0,0,0,0,0,0
+maharashtra,mumbai,47,17099,farmer,3,0.67,0,0,0,0,0
+maharashtra,mumbai,61,8033,farmer,4,2.52,1,1,0,1,1
+maharashtra,mumbai,31,9319,agricultural_laborer,6,0.0,0,1,0,1,1
+maharashtra,pune,55,15585,artisan,7,0.0,0,0,1,0,1
+maharashtra,pune,45,15055,daily_wage_laborer,7,0.0,0,0,0,0,0
+maharashtra,pune,22,15068,farmer,8,2.93,0,0,0,0,0
+maharashtra,nagpur,44,17615,farmer,6,4.34,0,0,0,0,0
+maharashtra,mumbai,40,8639,daily_wage_laborer,6,0.0,0,1,0,1,1
+maharashtra,pune,33,23511,farmer,4,3.9,0,0,0,0,0
+maharashtra,pune,45,3378,small_trader,5,0.0,0,1,1,1,1
+maharashtra,pune,39,7444,farmer,6,1.81,1,1,0,1,1
+maharashtra,nagpur,18,10699,artisan,6,0.0,0,1,1,0,1
+maharashtra,mumbai,63,14547,farmer,4,3.14,0,1,0,0,1
+maharashtra,mumbai,33,11175,farmer,2,0.96,0,1,0,0,1
+maharashtra,pune,39,7142,agricultural_laborer,8,0.0,0,1,0,1,1
+maharashtra,nagpur,28,18979,agricultural_laborer,3,0.0,0,0,0,0,0
+maharashtra,nagpur,31,23454,farmer,4,0.89,0,0,0,0,0
+maharashtra,mumbai,53,16766,farmer,4,4.0,0,0,0,0,0
+maharashtra,pune,24,11864,farmer,5,0.75,0,1,0,0,1
+maharashtra,mumbai,42,24590,farmer,8,0.51,0,0,0,0,0
+maharashtra,nagpur,63,11202,farmer,3,4.95,0,1,0,0,1
+maharashtra,pune,53,18467,artisan,8,0.0,0,0,1,0,1
+maharashtra,pune,32,20179,farmer,6,1.02,0,0,0,0,0
+maharashtra,pune,31,5774,artisan,4,0.0,0,1,1,1,1
+maharashtra,pune,46,17857,agricultural_laborer,8,0.0,0,0,0,0,0
+maharashtra,mumbai,39,3677,farmer,2,0.13,1,1,0,1,1
+maharashtra,nagpur,49,3566,daily_wage_laborer,4,0.0,0,1,0,1,1
+maharashtra,pune,33,14828,agricultural_laborer,2,0.0,0,1,0,0,1
+maharashtra,nagpur,59,22387,agricultural_laborer,4,0.0,0,0,0,0,0
+maharashtra,mumbai,49,6889,small_trader,7,0.0,0,1,1,1,1
+maharashtra,pune,63,8809,farmer,7,4.16,1,1,0,1,1
+maharashtra,mumbai,28,18340,daily_wage_laborer,7,0.0,0,0,0,0,0
+maharashtra,nagpur,22,13658,farmer,5,1.78,0,1,0,0,1
+maharashtra,nagpur,48,21779,agricultural_laborer,7,0.0,0,0,0,0,0
+maharashtra,nagpur,37,14159,farmer,8,4.07,0,1,0,0,1
+maharashtra,nagpur,50,11770,agricultural_laborer,8,0.0,0,1,0,0,1
+maharashtra,nagpur,25,12347,daily_wage_laborer,2,0.0,0,1,0,0,1
+maharashtra,mumbai,40,12034,agricultural_laborer,6,0.0,0,1,0,0,1
+maharashtra,pune,20,25000,farmer,2,1.88,0,0,0,0,0
+maharashtra,pune,38,17758,agricultural_laborer,7,0.0,0,0,0,0,0
+maharashtra,pune,41,14861,small_trader,3,0.0,0,1,1,0,1
+maharashtra,nagpur,35,12656,farmer,5,4.22,0,1,0,0,1
+maharashtra,nagpur,31,12866,farmer,2,4.02,0,1,0,0,1
+maharashtra,pune,54,11570,artisan,7,0.0,0,1,1,0,1
+maharashtra,pune,18,17166,agricultural_laborer,2,0.0,0,0,0,0,0
+maharashtra,nagpur,42,11857,farmer,8,3.87,0,1,0,0,1
+maharashtra,pune,20,3665,agricultural_laborer,7,0.0,0,1,0,1,1
+maharashtra,nagpur,18,17291,agricultural_laborer,3,0.0,0,0,0,0,0
+maharashtra,pune,51,15284,agricultural_laborer,6,0.0,0,0,0,0,0
+maharashtra,pune,33,8210,farmer,4,2.29,1,1,0,1,1
+maharashtra,mumbai,41,9411,agricultural_laborer,2,0.0,0,1,0,1,1
+maharashtra,nagpur,46,11005,agricultural_laborer,6,0.0,0,1,0,0,1
+maharashtra,nagpur,51,19010,agricultural_laborer,2,0.0,0,0,0,0,0
+maharashtra,pune,37,25000,artisan,3,0.0,0,0,0,0,0
+maharashtra,mumbai,52,6267,daily_wage_laborer,5,0.0,0,1,0,1,1
+maharashtra,mumbai,28,10505,agricultural_laborer,8,0.0,0,1,0,0,1
+maharashtra,mumbai,63,7251,small_trader,6,0.0,0,1,1,1,1
+maharashtra,mumbai,49,20475,artisan,3,0.0,0,0,0,0,0
+maharashtra,nagpur,52,15412,farmer,6,2.1,0,0,0,0,0
+maharashtra,pune,37,25000,artisan,2,0.0,0,0,0,0,0
